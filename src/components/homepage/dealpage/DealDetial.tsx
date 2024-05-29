@@ -15,7 +15,7 @@ export default function DealDetial() {
           <p
             className="sm:text-1"
             style={{
-              fontSize: window.innerWidth > 640 ? "1.5rem" : "10px !important",
+              fontSize:"1.5rem" ,
               lineHeight: "2rem",
               fontWeight: 700,
               fontFamily: "Open Sans, sans-serif",
@@ -31,7 +31,7 @@ export default function DealDetial() {
           <span
             style={{
               fontWeight: 700,
-              fontSize: window.innerWidth > 640 ? "1.3rem" : "10px !important",
+              fontSize: "1.3rem",
             }}
             className="text-blue-500"
           >
