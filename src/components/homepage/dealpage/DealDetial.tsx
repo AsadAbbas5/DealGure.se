@@ -8,25 +8,30 @@ export default function DealDetial() {
   return (
     <div className="mt-3 ml-2">
       <div className=" w-full min-h-[220px]  bg-white rounded-xl shadow-lg shadow-gray-200 p-4 gap-3 max-md:items-start items-center">
-        <div className="flex">
+        <div
+          className="flex"
+          style={{ flexDirection: "row", alignItems: "center" }}
+        >
           <p
+            className="sm:text-1"
             style={{
-              fontSize: "1.5rem",
+              fontSize: window.innerWidth > 640 ? "1.5rem" : "10px !important",
               lineHeight: "2rem",
               fontWeight: 700,
-              fontFamily: " Open Sans, sans-serif",
+              fontFamily: "Open Sans, sans-serif",
+              marginRight: "10px",
             }}
           >
             Bebeconfort Soko Compact Stroller 0-15kg Shadow
           </p>
-
           <LikeModule />
         </div>
+
         <div className="mt-5">
           <span
             style={{
               fontWeight: 700,
-              fontSize: "1.3rem",
+              fontSize: window.innerWidth > 640 ? "1.3rem" : "10px !important",
             }}
             className="text-blue-500"
           >
