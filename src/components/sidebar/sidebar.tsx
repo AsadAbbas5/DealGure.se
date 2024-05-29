@@ -1,7 +1,4 @@
 import React from "react";
-import FavDealCard from "./sidebar_fav_dealcard";
-import Ad_Section from "./sidebar_ad";
-import Sidebar_tags from "./sidebar_tags";
 
 const Sidebar = () => {
   return (
