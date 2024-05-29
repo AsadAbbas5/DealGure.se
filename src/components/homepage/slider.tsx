@@ -21,25 +21,25 @@ export default function CarouselSize() {
           <CarouselItem className=" pl-0 md:basis-1/2 lg:basis-1/3">
           </CarouselItem>
           <CarouselItem className=" pl-0 md:basis-1/2 lg:basis-1/3">
-            <ScrollCard />
+           
           </CarouselItem>
           <CarouselItem className=" pl-0 md:basis-1/2 lg:basis-1/3">
-            <ScrollCard />
+           
           </CarouselItem>
           <CarouselItem className=" pl-0 md:basis-1/2 lg:basis-1/3">
-            <ScrollCard />
+         
           </CarouselItem>
           <CarouselItem className=" pl-0 md:basis-1/2 lg:basis-1/3">
-            <ScrollCard />
+          
           </CarouselItem>
           <CarouselItem className=" pl-0 md:basis-1/2 lg:basis-1/3">
-            <ScrollCard />
+          
           </CarouselItem>
           <CarouselItem className=" pl-0 md:basis-1/2 lg:basis-1/3">
-            <ScrollCard />
+         
           </CarouselItem>
           <CarouselItem className=" pl-0 md:basis-1/2 lg:basis-1/3">
-            <ScrollCard />
+            
           </CarouselItem>
         </CarouselContent>
         <CarouselPrevious className="absolute left-2 opacity-40 w-12 h-12 disabled:hidden" />
