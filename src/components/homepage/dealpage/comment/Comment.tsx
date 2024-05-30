@@ -30,8 +30,8 @@ function Comment() {
           />
         </div>
       </div>
-      <div className="flex">
-        <div>
+      <div>
+        <div className="flex">
           <Image
             width={60}
             height={60}
@@ -39,9 +39,7 @@ function Comment() {
             className="w-[60px] h-[60px] rounded-full p-2"
             alt="Avatar"
           />
-        </div>
-        <div className="mt-4">
-          <h2
+            <h2
             style={{
               fontFamily: "Nunito Sans",
               fontStyle: "normal",
@@ -49,25 +47,27 @@ function Comment() {
               fontSize: "12px",
               lineHeight: "16px",
               color: "#1B2738",
+              marginTop:"25px",
             }}
           >
             The DealGuru Team
           </h2>
-          <div className="mt-2">
-            <p
+        </div>
+        
+        <p
               style={{
                 fontFamily: "Nunito Sans",
                 color: "gray",
                 fontSize: "14px",
                 fontWeight: 400,
+                marginLeft:"2.7rem",
+                marginBottom:"15px"
               }}
             >
               The deal was updated with a new price or new discount on
               2024-05-23 by <br />
               DealGuru-Sebastian
-            </p>
-          </div>
-          <div className="mt-2 flex items-center">
+              <div className="mt-2 flex items-center">
             <TbArrowBigUpFilled
               className="text-blue-600"
               style={{
@@ -89,10 +89,16 @@ function Comment() {
               Respond
             </p>
           </div>
-        </div>
+       
+            </p>
+         
+           
+        
+          
+       
       </div>
 
-      <div className="flex">
+      <div>
         <div className="flex">
           <div>
             <Image

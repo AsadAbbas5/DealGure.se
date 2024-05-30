@@ -55,14 +55,13 @@ export default function DealDetial() {
           >
             SEK 1,495
           </s>
-          <span className="sm:hidden"
-
+          <span
+            className="sm:hidden"
             style={{
-
               backgroundColor: "#0367DD",
               borderRadius: "5px",
-              maxWidth:"26px",
-              padding:"15px",
+              maxWidth: "26px",
+              padding: "15px",
               color: "#fff",
               fontSize: "15px",
               marginLeft: "1rem",
