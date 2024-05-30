@@ -1,13 +1,20 @@
 import Image from "next/image";
 import React from "react";
 
-const LikeModule = () => {
+const DealLikeModule = () => {
   return (
-    <div className="flex flex-1 items-end h-fit mr-9 mt-6 flex-col gap-4 max-md:items-start max-md:gap-2">
+    <div className="flex flex-1 items-end h-fit  flex-col gap-4 max-md:items-start max-md:gap-2">
+      <span
+        className="font-bold  text-sm bg-dealguru-grey text-blue-500"
+        style={{
+          padding: "10px 50px",
+          maxWidth: "45%",
+          borderRadius: "5%",
+        }}
+      >
+        136
+      </span>
       <div className="flex md:gap-2 gap-1">
-        <div className="border border-dealguru-blue md:min-w-[40px] md:min-h-[40px] max-w-[35px] h-[35px] flex p-2 items-center justify-center rounded-md  ">
-          <span className="font-bold  text-sm">136</span>
-        </div>
         <div className=" bg-dealguru-grey md:w-[40px] md:h-[40px] w-[35px] h-[35px] flex p-2 items-center justify-center rounded-md cursor-pointer">
           <Image alt="heart" width={16} height={16} src={"/heart.svg"} />
         </div>
@@ -22,4 +29,4 @@ const LikeModule = () => {
   );
 };
 
-export default LikeModule;
+export default DealLikeModule;

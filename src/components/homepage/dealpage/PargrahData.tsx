@@ -92,7 +92,8 @@ function PargrahData() {
         </div>
       </div>
       <div>
-        <h1 className="font-nunito text-normal mt-4 text-lg text-gray-500" style={{
+        <h1 className="font-nunito text-normal mt-4 text-lg" style={{
+          color:"rgb(49, 49, 49)",
           fontSize:"inherit",
           fontWeight:"inherit"
         }}>

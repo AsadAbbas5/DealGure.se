@@ -91,7 +91,10 @@ export default function DealPage() {
                     Free Sample |
                   </h1>
                   <h1 className="ml-5 text-blue-600 font-bold">
-                    Free & discount codes
+                    <span className="hidden md:inline">
+                      Free & discount codes
+                    </span>
+                    <span className="md:hidden">Free &</span>
                   </h1>
                 </div>
                 <div>

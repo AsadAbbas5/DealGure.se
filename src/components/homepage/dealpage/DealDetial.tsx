@@ -3,33 +3,39 @@ import LikeModule from "../like_module";
 import Image from "next/image";
 import CommentModules from "./CommentModules";
 import PargrahData from "./PargrahData";
+import { openSans, nunito_Sans } from "@/components/ui/fonts";
+import DealLikeModule from "./DealLikeModule";
 
 export default function DealDetial() {
   return (
-    <div className="mt-3 ml-2">
+    <div className="mt-2 ml-2">
       <div className=" w-full min-h-[220px]  bg-white rounded-xl shadow-lg shadow-gray-200 p-4 gap-3 max-md:items-start items-center">
         <div
           className="flex"
           style={{ flexDirection: "row", alignItems: "center" }}
         >
           <p
-            className="sm:text-1"
+            className={`${openSans.className}`}
             style={{
-              fontSize:"1.5rem" ,
+              color: "",
+              fontSize: "1.3rem",
               lineHeight: "2rem",
-              fontWeight: 700,
-              fontFamily: "Open Sans, sans-serif",
+              fontWeight: 650,
               marginRight: "10px",
             }}
           >
-            Bebeconfort Soko Compact Stroller 0-15kg Shadow
+            Bebeconfort Soko Compact Stroller
+            <br />
+            0-15kg Shadow
           </p>
-          <LikeModule />
+
+          <DealLikeModule />
         </div>
 
-        <div className="mt-5">
+        <div className={`${nunito_Sans.className} mt-5 `}>
           <span
             style={{
+              marginTop: "5rem",
               fontWeight: 700,
               fontSize: "1.3rem",
             }}
@@ -49,11 +55,14 @@ export default function DealDetial() {
           >
             SEK 1,495
           </s>
-          <span
+          <span className="sm:hidden"
+
             style={{
+
               backgroundColor: "#0367DD",
               borderRadius: "5px",
-              padding: "18px 15px 15px 15px",
+              maxWidth:"26px",
+              padding:"15px",
               color: "#fff",
               fontSize: "15px",
               marginLeft: "1rem",
@@ -62,35 +71,38 @@ export default function DealDetial() {
             -36%
           </span>
           <span
+            className={`${nunito_Sans.className} ml-4`}
             style={{
               fontSize: "15px",
               fontFamily: "Nunito Sans",
               fontStyle: "normal",
-              color: "blue",
+              color: "rgb(0, 103, 225)",
+              fontWeight: 700,
             }}
-            className="ml-4"
           >
             Amazone
           </span>
           <span
             style={{
-              fontSize: "15px",
+              fontSize: "13px",
               fontFamily: "Nunito Sans",
               fontStyle: "normal",
-              color: "blue",
+              fontWeight: 800,
+              color: "rgb(0, 103, 225)",
             }}
             className="ml-3"
           >
             Prams
           </span>
           <span
+            className={`${nunito_Sans.className} ml-3`}
             style={{
               fontSize: "15px",
               fontFamily: "Nunito Sans",
               fontStyle: "normal",
-              color: "blue",
+              fontWeight: 800,
+              color: "rgb(0, 103, 225)",
             }}
-            className="ml-3"
           >
             Children
           </span>

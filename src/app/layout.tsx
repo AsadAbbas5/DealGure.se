@@ -6,6 +6,7 @@ import { Nunito_Sans } from "next/font/google";
 import Navbar from "@/components/header/navbar";
 import Footer from "@/components/footer/footer";
 import Footer_Menu from "@/components/footer/footer_menu";
+import DealContent from "@/components/homepage/DealContent";
 
 export const metadata: Metadata = {
   title: "Create Next App",

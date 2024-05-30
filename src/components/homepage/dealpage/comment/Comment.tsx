@@ -99,19 +99,18 @@ function Comment() {
               width={60}
               height={60}
               src="https://dealguru.se/images/mannew2.png"
-              className="w-[60px] h-[60px] rounded-full p-2"
-              
+              className="w-[60px] h-[60px] rounded-full p-2 sm:w-60"
               alt="Avatar"
               style={{
-                marginRight:"5px",
-                backgroundColor:"#00ffea",
-                padding:"5px",
-                borderRadius:"200px",
-                width:"40px",
-                backgroundSize:"cover",
-                height:"40px !important",
-                objectFit:"scale-down",
-                border:"1px solid #d0d0d0"
+                marginRight: "5px",
+                backgroundColor: "#00ffea",
+                padding: "5px",
+                borderRadius: "200px",
+                width: "40px",
+                backgroundSize: "cover",
+                height: "40px !important",
+                objectFit: "scale-down",
+                border: "1px solid #d0d0d0",
               }}
             />
           </div>
@@ -125,7 +124,6 @@ function Comment() {
                 lineHeight: "16px",
                 color: "#1B2738",
                 marginLeft: "0.5rem",
-               
               }}
             >
               john

@@ -1,3 +1,7 @@
-import { Inter } from 'next/font/google';
- 
-export const inter = Inter({ subsets: ['latin'] });
+import { Open_Sans,Nunito_Sans } from 'next/font/google';
+
+const openSans = Open_Sans({ subsets: ['latin'] });
+
+const nunito_Sans = Nunito_Sans({subsets:['latin']})
+
+export { openSans,nunito_Sans };
