@@ -4,6 +4,7 @@ import { MdNavigateNext } from "react-icons/md";
 import DealDetial from "./dealpage/DealDetial";
 import ImageSlider from "./ImageSlider";
 import PargrahData from "./dealpage/PargrahData";
+import { nunito_Sans } from "../ui/fonts";
 
 const DealContent = () => {
   const [isMobile, setIsMobile] = useState(false);
@@ -19,16 +20,18 @@ const DealContent = () => {
   return (
     <div className="md:col-span-7 border-gray-300 rounded-lg">
       <div className="flex md:items-end justify-between md:flex-row flex-col items-start gap-2 md:mb-0 min-h-11">
-        <div className="flex">
+        <div className="flex mt-2 ">
           <div className="flex items-center">
             <h5
               style={{
                 font: "Nunito Sans",
                 marginBottom: "1rem",
+                fontStyle: "normal",
                 fontWeight: 500,
                 fontSize: "1.1rem",
+                textTransform: "capitalize",
+                color: "rgb(0, 103, 225)",
               }}
-              className="text-blue-500 ml-2"
             >
               Home
             </h5>
@@ -41,11 +44,14 @@ const DealContent = () => {
             </span>
             <h5
               style={{
-                fontSize: "1rem",
-                fontWeight: 500,
+                font: "Nunito Sans",
                 marginBottom: "1rem",
+                fontStyle: "normal",
+                fontWeight: 500,
+                fontSize: "1.1rem",
+                textTransform: "capitalize",
+                color: "rgb(0, 103, 225)",
               }}
-              className="font-'Nunito Sans' text-blue-500"
             >
               Amazone
             </h5>
@@ -59,7 +65,18 @@ const DealContent = () => {
           </div>
           <div>
             <div className="flex flex-col items-center mr-3">
-              <h2 className="font-sans text-gray-400 sm:ml-2 md:ml-4 lg:ml-1 xl:ml-8">
+              <h2
+                style={{
+                  font: "Nunito Sans",
+                  marginBottom: "1rem",
+                  fontStyle: "normal",
+                  fontWeight: 500,
+                  fontSize: "18px",
+                  textTransform: "capitalize",
+                  color: "rgb(90, 90, 90)",
+                }}
+                className=" sm:ml-2 md:ml-4 lg:ml-1 xl:ml-8"
+              >
                 {isMobile
                   ? "Bebeconfort Soko C"
                   : "Bebeconfort Soko Compact Stroller 0-15kg Shadow"}
@@ -75,7 +92,6 @@ const DealContent = () => {
         </div>
         <div className="w-full md:w-3/5 xl:ml-4">
           <DealDetial />
-
           <PargrahData />
         </div>
       </div>

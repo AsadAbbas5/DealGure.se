@@ -12,7 +12,7 @@ export default function Home() {
     <main className="z-0 px-4 md:px-8  md_lg:px-x-pad w-full mt-28">
       <Category_slider />
 
-      <div className="grid grid-cols-1  md:gap-5  md:grid-cols-7  w-full mt-5">
+      <div className="grid grid-cols-1  md:gap-5  md:grid-cols-7  w-full ">
         <DealContent/>
         <Sidebar />
       </div>
