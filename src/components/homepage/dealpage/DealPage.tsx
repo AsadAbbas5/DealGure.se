@@ -26,13 +26,13 @@ export default function DealPage() {
       title: "Try Amazon Prime absolutely free for 30 days",
       description:
         "Free shipping and access to lots of movies and TV series 🎥",
-      updated: "Checked 2 weeks ago by",
+        updated: "Checked 2 weeks ago by",
     },
     {
       src: "https://dealguru.se/admin/uploads/t%C3%9Cv-s%C3%9Dd-certifierat-kaffefilter-1677661090.jpg",
       title:
         "Very good deal on a flexible and reliable solution to filter your coffee!",
-      description: "Updated 1 month ago by",
+       updated: "Checked 2 weeks ago by",
     },
   ];
 
@@ -120,25 +120,7 @@ export default function DealPage() {
                     <h2 className="text-gray-400 text-[12px] font-sans font-bold mt-2">
                       {deal.updated}
                     </h2>
-                    <div className="flex">
-                      <FaComment
-                        style={{
-                          marginTop: "1rem",
-                          marginLeft: "15rem",
-                          fontSize: "1.2rem",
-                          color: "gray",
-                        }}
-                      />
-                      <p
-                        style={{
-                          marginTop: "1rem",
-                          marginLeft: "2px",
-                          color: "gray",
-                        }}
-                      >
-                        19
-                      </p>
-                    </div>
+                 
                   </div>
                 </div>
                 <div className="flex">

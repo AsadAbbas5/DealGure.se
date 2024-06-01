@@ -20,14 +20,15 @@ const DealContent = () => {
   return (
     <div className="md:col-span-7 border-gray-300 rounded-lg">
       <div className="flex md:items-end justify-between md:flex-row flex-col items-start gap-2 md:mb-0 min-h-11">
-        <div className="flex mt-2 ">
-          <div className="flex items-center">
+        <div className="flex mt-2 items-center">
+          <div className="flex items-center ml-4 mt-1">
             <h5
               style={{
-                font: "Nunito Sans",
+                // fontFamily: `"Nunito Sans", sans-serif`,
+
                 marginBottom: "1rem",
                 fontStyle: "normal",
-                fontWeight: 500,
+                fontWeight: 400,
                 fontSize: "1.1rem",
                 textTransform: "capitalize",
                 color: "rgb(0, 103, 225)",

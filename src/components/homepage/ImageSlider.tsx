@@ -40,7 +40,7 @@ const ImageSlider = () => {
 
   return (
     <div>
-      <div className="w-full mt-2 max-w-[600px] min-h-[600px] bg-white rounded-xl shadow-lg shadow-gray-200 flex flex-col gap-3 items-center mx-auto lg:ml-2">
+      <div className="w-full mt-2 max-w-[600px] min-h-[540px] bg-white rounded-xl shadow-lg shadow-gray-200 flex flex-col gap-3 items-center mx-auto lg:ml-2">
         <div className="relative w-full h-full flex justify-center items-center group">
           <button
             onClick={handlePrevious}
@@ -98,9 +98,13 @@ const ImageSlider = () => {
         </div>
       </div>
 
-      <h1 className="mt-3 font-sans text-gray-500 font-medium text-xl">
+      <h1 className="mt-3 ml-2  font-normal  text-[20px] text-[#1B2738]" style={{
+        fontWeight:700
+        
+      }}>
         Other great deals we think you'll like
       </h1>
+
       <DealPage />
       <style jsx>{`
         .thumbnail-container {

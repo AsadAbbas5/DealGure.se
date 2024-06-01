@@ -3,7 +3,7 @@ import LikeModule from "../like_module";
 import Image from "next/image";
 import CommentModules from "./CommentModules";
 import PargrahData from "./PargrahData";
-import { openSans, nunito_Sans } from "@/components/ui/fonts";
+import { nunito_Sans } from "@/components/ui/fonts";
 import DealLikeModule from "./DealLikeModule";
 
 export default function DealDetial() {
@@ -15,13 +15,11 @@ export default function DealDetial() {
           style={{ flexDirection: "row", alignItems: "center" }}
         >
           <p
-            className={`${openSans.className}`}
+            className={
+              "text-heading text-lg md:text-xl lg:text-2xl 2xl:text-3xl font-bold hover:text-black mb-3.5"
+            }
             style={{
-              color: "",
-              fontSize: "1.3rem",
-              lineHeight: "2rem",
-              fontWeight: 650,
-              marginRight: "10px",
+              fontFamily: `"Open Sans", sans-serif`,
             }}
           >
             Bebeconfort Soko Compact Stroller
@@ -32,16 +30,18 @@ export default function DealDetial() {
           <DealLikeModule />
         </div>
 
-        <div className={`${nunito_Sans.className} mt-5 `}>
+        <div className="flex deal-single-price deals-price font-semibold text-sm sm:text-base  space-s-2 sm:text-xl md:text-base lg:text-xl  2xl:mt-3 text-heading pt-4" style={{
+          alignItems:"center"
+        }}>
           <span
-            style={{
-              marginTop: "5rem",
-              fontWeight: 700,
-              fontSize: "1.3rem",
+            className="font-bold "
+            style={{ color: "#0367DD", whiteSpace: "nowrap",
+            alignItems: "center",display: "flex!important",width:"100%, !important", fontSize: "20px",
+            fontWeight:700
+
             }}
-            className="text-blue-500"
           >
-            SEK 957
+            SEK 1,083
           </span>
 
           <s
@@ -56,12 +56,12 @@ export default function DealDetial() {
             SEK 1,495
           </s>
           <span
-            className="sm:hidden"
+           
             style={{
               backgroundColor: "#0367DD",
               borderRadius: "5px",
-              maxWidth: "26px",
-              padding: "15px",
+              
+              padding: "10px",
               color: "#fff",
               fontSize: "15px",
               marginLeft: "1rem",
@@ -70,13 +70,12 @@ export default function DealDetial() {
             -36%
           </span>
           <span
-            className={`${nunito_Sans.className} ml-4`}
-            style={{
-              fontSize: "15px",
-              fontFamily: "Nunito Sans",
-              fontStyle: "normal",
-              color: "rgb(0, 103, 225)",
-              fontWeight: 700,
+            className="ml-4"
+            style={{fontSize: "14px",display: "inline-flex",flexWrap: "wrap" ,
+            width :"max-content",color:"#0067e1",
+            fontWeight:650
+            
+
             }}
           >
             Amazone
@@ -106,7 +105,7 @@ export default function DealDetial() {
             Children
           </span>
         </div>
-        <div className="flex">
+        <div className="flex items-center">
           <div>
             <Image
               width={30}
@@ -123,12 +122,14 @@ export default function DealDetial() {
               fontSize: "12px",
               fontFamily: "Nunito Sans",
               fontWeight: 700,
-              marginTop: "2rem",
+              marginTop: "1rem",
             }}
           >
             Checked 1 day ago by DealGuru-Sebastian
           </div>
-          <CommentModules />
+            
+          <CommentModules/>
+          
         </div>
       </div>
     </div>
