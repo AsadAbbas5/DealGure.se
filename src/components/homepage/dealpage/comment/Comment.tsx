@@ -4,10 +4,9 @@ import React, { useState } from "react";
 import { TbArrowBigUpFilled } from "react-icons/tb";
 import { PiArrowBendUpLeftLight } from "react-icons/pi";
 import { PiArrowFatUpLight } from "react-icons/pi";
-
 function Comment() {
   return (
-    <div className="w-full min-h-[250px] mt-3 bg-white rounded-xl shadow-lg shadow-gray-200 p-4 gap-3 max-md:items-start items-center">
+    <div className=" w-full min-h-[100px] mt-3 bg-white rounded-xl shadow-lg shadow-gray-200 p-4 gap-3 max-md:items-start items-center">
       <div
         style={{
           backgroundColor: "#fff",
@@ -26,7 +25,11 @@ function Comment() {
           />
           <Input
             placeholder="Write Your comment here..."
-            className="w-[86%] ml-3 py-6 rounded-xl font-sans text-1xl"
+            className="font-sans text-1xl" style={{
+              borderRadius:"200px",
+              padding:"25px",
+              border:"1px solid rgb(237, 239, 241) "
+            }}
           />
         </div>
       </div>
@@ -39,33 +42,42 @@ function Comment() {
             className="w-[60px] h-[60px] rounded-full p-2"
             alt="Avatar"
           />
-          <h2
+          <p
             style={{
-              fontFamily: "Nunito Sans",
-              fontStyle: "normal",
+              fontFamily: `"Nunito Sans", sans-serif`,
               fontWeight: 700,
               fontSize: "12px",
-              lineHeight: "16px",
+              lineHeight: "20px",
               color: "#1B2738",
               marginTop: "25px",
             }}
           >
             The DealGuru Team
-          </h2>
+          </p>
+          <p
+            style={{
+              marginLeft: "23rem",
+              fontSize: "15px",
+              color: "darkgray",
+              fontFamily: "Nunito Sans",
+              fontStyle: "normal",
+              fontWeight: 400,
+              lineHeight: "16px",
+              marginTop: "1rem",
+            }}
+          >
+            4 days, 21 minutes ago
+          </p>
         </div>
-
         <p
           style={{
-            fontFamily: "Nunito Sans",
             color: "gray",
             fontSize: "14px",
             fontWeight: 400,
-            marginLeft: "2.7rem",
-            marginBottom: "15px",
+            marginLeft: "3.8rem",
           }}
         >
-          The deal was updated with a new price or new discount on 2024-05-23 by{" "}
-          <br />
+          The deal was updated with a new price or new discount on 2024-05-23 by
           DealGuru-Sebastian
           <div className="mt-2 flex items-center">
             <TbArrowBigUpFilled
@@ -88,12 +100,13 @@ function Comment() {
             >
               Respond
             </p>
+      
           </div>
         </p>
       </div>
-
       <div>
         <div className="flex">
+          
           <div>
             <Image
               width={60}
@@ -114,10 +127,11 @@ function Comment() {
               }}
             />
           </div>
+                
           <div className="mt-4">
+          
             <h2
               style={{
-                fontFamily: "Nunito Sans",
                 fontStyle: "normal",
                 fontWeight: 700,
                 fontSize: "12px",
@@ -126,12 +140,11 @@ function Comment() {
                 marginLeft: "0.5rem",
               }}
             >
-              john
+              john 
             </h2>
             <div className="mt-2">
               <p
                 style={{
-                  fontFamily: "Nunito Sans",
                   fontStyle: "normal",
                   color: "gray",
                   fontSize: "14px",
@@ -143,7 +156,9 @@ function Comment() {
                 an extra trailer
               </p>
             </div>
+            
             <div className="mt-2 flex items-center">
+              
               <PiArrowFatUpLight
                 className=""
                 style={{
