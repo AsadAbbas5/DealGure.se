@@ -105,7 +105,7 @@ function Comment() {
                 marginRight: "5px",
                 backgroundColor: "#00ffea",
                 padding: "5px",
-                // borderRadius: "200px",
+                borderRadius: "200px",
                 width: "40px",
                 backgroundSize: "cover",
                 height: "40px",
