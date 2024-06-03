@@ -37,7 +37,6 @@ const ImageSlider = () => {
       selectedImage === images.length - 1 ? 0 : selectedImage + 1
     );
   };
-
   return (
     <div>
       <div className="w-full  max-w-[600px] min-h-[540px] bg-white rounded-xl shadow-lg shadow-gray-200 flex flex-col gap-3 items-center mx-auto lg:ml-2">

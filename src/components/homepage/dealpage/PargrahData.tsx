@@ -3,8 +3,11 @@ import Comment from "./comment/Comment";
 
 function PargrahData() {
   return (
+    <div>
+
+  
     <div className="ml-3">
-      <div className="w-full min-h-[250px] mt-6 bg-white rounded-xl shadow-lg shadow-gray-200 p-4 gap-3 flex flex-col">
+      <div className="w-[730px]   min-h-[250px] mt-6 bg-white rounded-xl shadow-lg shadow-gray-200 p-4 gap-3 flex flex-col">
         <div>
           <h1
             style={{
@@ -154,7 +157,9 @@ function PargrahData() {
           What Do You think
         </h1>
       </div>
-      <Comment />
+     
+    </div>
+    <Comment />
     </div>
   );
 }
