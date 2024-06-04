@@ -289,6 +289,9 @@ export default function DealPage() {
                   fontSize: "12px",
                   // fontFamily: "'Nunito Sans'",
                   fontWeight: "700",
+                  fontFamily:"0.5rem",
+                  marginLeft:"1rem"
+                  
                 }}
               >
                 Good deal? Vote here:
