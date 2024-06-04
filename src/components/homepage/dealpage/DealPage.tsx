@@ -15,12 +15,12 @@ export default function DealPage() {
               <h3
                 className=" flex mb-1.5 font-bold flex text-sm sm:text-base md:text-sm lg:text-base xl:text-lg  text-heading in_mb_txt_t_head_003 "
                 style={{
-                  maxWidth: "100%",
-                  overflow: "hidden",
-                  textOverflow: "ellipsis",
+                  // fontFamily:"Nunito Sans ",
+                  fontStyle: "normal",
                   fontWeight: 700,
-                  // marginLeft:"1rem",
-                  fontSize: "1.125rem !important",
+                  fontSize: "20px",
+                  color: "#000",
+                  marginLeft: "1rem",
                 }}
               >
                 NIVEA MEN Sensitive Pro After Shave Balm 100ml
@@ -35,7 +35,7 @@ export default function DealPage() {
                     fontSize: "12px",
                     // fontFamily: "Nunito Sans",
                     fontWeight: "700",
-                    // marginLeft:"1rem"
+                    marginLeft: "1rem",
                   }}
                 >
                   Good deal? Vote here:
@@ -100,7 +100,7 @@ export default function DealPage() {
                     alt=""
                     src="data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMjY1IiBoZWlnaHQ9IjI2NSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiB2ZXJzaW9uPSIxLjEiLz4="
                   />
-                  {/* NIVEA MEN Sensitive Pro After Shave Balm 100ml */}
+                  
                 </span>
 
                 <img
@@ -132,7 +132,6 @@ export default function DealPage() {
                 color: "#0367DD",
                 fontWeight: 700,
                 fontSize: "19px",
-               
               }}
             >
               SEK 71
@@ -165,8 +164,8 @@ export default function DealPage() {
 
             <h3
               style={{
-                fontSize: "18px",
-                lineHeight: "27px",
+                fontSize: "15px",
+                lineHeight: "25px",
                 fontWeight: 600,
                 marginLeft: "10px",
               }}
@@ -180,11 +179,12 @@ export default function DealPage() {
                 fontSize: "17px",
                 color: "#0067e1",
                 fontWeight: 700,
-                marginLeft:"0.5rem"
+                marginLeft: "0.5rem",
               }}
             >
               Nivea
             </h1>
+       
             <h1
               style={{
                 fontSize: "17px",
@@ -207,7 +207,7 @@ export default function DealPage() {
             />
             <div>
               <h2 className="text-gray-400 text-[12px] font-sans font-bold">
-                Updated 4 days ago by
+                Updated 5 days ago by
               </h2>
               <h1
                 style={{
@@ -260,17 +260,26 @@ export default function DealPage() {
             }}
           >
             <Image
-              src="https://dealguru.se/admin/uploads/6657290be61af-61xrm3cqcnlacsl1200.jpg"
-              width={150}
-              height={75}
+              src="https://dealguru.se/admin/uploads/65f943f22397b-61zbhh9zgvlacsl1001.jpg"
+              width={200}
+              height={175}
               alt="deal image"
               className="md:h-auto w-auto md:w-[150px] rounded-l-md object-cover mt-2"
             />
           </div>
 
-          <div className="md:ml-4
-           md:mt-0">
-            <h1 className="text-sm md:text-lg font-semibold leading-6 md:leading-7">
+          <div
+            className="md:ml-4
+           md:mt-0"
+          >
+            <h1
+              className="text-sm md:text-lg font-semibold leading-6 md:leading-7"
+              style={{
+                fontWeight: 700,
+                fontSize: "1.2rem",
+                marginLeft:"1rem"
+              }}
+            >
               Water slide with sea animals -<br /> Playmobil
             </h1>
             <div>
@@ -306,7 +315,7 @@ export default function DealPage() {
               style={{
                 fontSize: "18px",
                 fontWeight: 600,
-                marginLeft: "15px",
+                marginLeft: "12px",
               }}
             >
               Amazon

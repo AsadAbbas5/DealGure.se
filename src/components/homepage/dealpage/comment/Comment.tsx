@@ -37,7 +37,6 @@ function Comment() {
       </div>
       <div>
         <div className="flex">
-          
           <Image
             width={60}
             height={60}
@@ -60,16 +59,17 @@ function Comment() {
           <p
             style={{
               marginLeft: "22rem",
-              fontSize: "15px",
-              color: "darkgray",
-              fontFamily: "Nunito Sans",
+              fontSize: "11px",
+              color: "rgba(27, 39, 56, 0.5)",
+              fontFamily: `"Nunito Sans", sans-serif`,
+
               fontStyle: "normal",
-              fontWeight: 400,
-              lineHeight: "16px",
-              marginTop: "1rem",
+              fontWeight: 500,
+              // lineHeight: "16px",
+              marginTop: "2.5rem",
             }}
           >
-            4 days, 21 minutes ago
+            6 days, 20 hours, 17 minutes ago
           </p>
         </div>
         <p
@@ -146,16 +146,18 @@ function Comment() {
               <p
                 style={{
                   marginLeft: "27rem",
-                  fontSize: "15px",
-                  color: "darkgray",
-                  fontFamily: "Nunito Sans",
+                  fontSize: "12px",
+                  color: "rgba(27, 39, 56, 0.5)",
+                  fontFamily: `"Nunito Sans", sans-serif`,
+
                   fontStyle: "normal",
                   fontWeight: 400,
                   lineHeight: "16px",
                   marginTop: "0.5rem",
                 }}
               >
-                14 days, 3 hours, 57 minutes               </p>
+                14 days, 3 hours, 57 minutes
+              </p>
             </div>
 
             <div>
@@ -166,7 +168,7 @@ function Comment() {
                   fontSize: "14px",
                   fontWeight: 400,
                   lineHeight: "19px",
-                  marginTop:"10px"
+                  marginTop: "10px",
                 }}
               >
                 What a great price! Perfect to have lying around in the car as
