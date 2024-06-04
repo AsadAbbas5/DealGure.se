@@ -39,7 +39,7 @@ export default function DealPage() {
                 >
                   Good deal? Vote here:
                   <p style={{
-                    marginRight:"6px"
+                    marginRight:"8px"
                   }}>
 
                   <LikeModule />
@@ -279,7 +279,7 @@ export default function DealPage() {
               style={{
                 fontWeight: 700,
                 fontSize: "1.2rem",
-                marginLeft: "1rem",
+                marginLeft: "10px",
               }}
             >
               Water slide with sea animals -<br /> Playmobil
@@ -292,7 +292,7 @@ export default function DealPage() {
                   // fontFamily: "'Nunito Sans'",
                   fontWeight: "700",
                   fontFamily: "0.5rem",
-                  marginLeft: "1rem",
+                  marginLeft: "1.4rem",
                 }}
               >
                 Good deal? Vote here:
@@ -302,7 +302,7 @@ export default function DealPage() {
           </div>
         </div>
         <div>
-          <div className="flex items-center ml-2 mt-4">
+          <div className="flex items-center  mt-4">
             <h1
                style={{
                 whiteSpace: "nowrap",
@@ -324,7 +324,7 @@ export default function DealPage() {
             </h1>
           </div>
 
-          <div className="flex items-start mt-2 ml-2">
+          <div className="flex items-center mt-2">
             <h1
               style={{
                 fontSize: "17px",
@@ -358,7 +358,7 @@ export default function DealPage() {
           </div>
           <h1
             style={{
-              marginLeft:"5px",
+              // marginLeft:"5px",
               fontWeight: 600,
               fontSize: "15px",
               marginTop: "10px",
