@@ -8,55 +8,131 @@ import { FaComment, FaArrowLeft, FaArrowRight } from "react-icons/fa";
 export default function DealPage() {
   return (
     <div>
-      <div className=" w-full min-h-[350px] mt-3 bg-white rounded-xl shadow-lg shadow-gray-200  p-4 flex flex-col gap-3 items-stretch">
-        <div className="flex flex-col md:flex-row items-start justify-start md:items-center md:justify-start">
+      <div className="w-full mt-3 bg-white rounded-xl shadow-lg shadow-gray-200 p-4">
+        <div className="flex flex-row-reverse">
           <div>
-            <Image
-              style={{
-                marginLeft: "2rem",
-              }}
-              src="https://dealguru.se/admin/uploads/6657290be61af-61xrm3cqcnlacsl1200.jpg"
-              width={150}
-              height={75}
-              alt="deal image"
-              className="md:h-auto w-[100%] md:w-[100px] rounded-l-md object-cover mt-2"
-            />
-          </div>
-          <div className="md:mt-0">
-            <h1
-              className="text-sm md:text-lg  leading-6 md:leading-7 ml-20"
-              style={{
-                fontWeight: 800,
-                fontSize: "1.2rem",
-              }}
-            >
-              Try Amazon Prime absolutely free for 30 days
-            </h1>
-            <div>
-              <p
-                className="ml-20"
+            <a href="#" style={{ cursor: "pointer" }}>
+              <h3
+                className=" flex mb-1.5 font-bold flex text-sm sm:text-base md:text-sm lg:text-base xl:text-lg  text-heading in_mb_txt_t_head_003 "
                 style={{
-                  color: "#1b2738",
-                  fontSize: "12px",
-                  fontFamily: "'Nunito Sans'",
-                  fontWeight: "700",
+                  maxWidth: "100%",
+                  overflow: "hidden",
+                  textOverflow: "ellipsis",
+                  fontWeight: 700,
+                  // marginLeft:"1rem",
+                  fontSize: "1.125rem !important",
                 }}
               >
-                Good deal? Vote here:
-                <LikeModule />
-              </p>
+                NIVEA MEN Sensitive Pro After Shave Balm 100ml
+              </h3>
+            </a>
+            <div className="pb-0.5 ">
+              <div>
+                <p
+                  className="bra_text13088"
+                  style={{
+                    color: "#1B2738",
+                    fontSize: "12px",
+                    // fontFamily: "Nunito Sans",
+                    fontWeight: "700",
+                    // marginLeft:"1rem"
+                  }}
+                >
+                  Good deal? Vote here:
+                  <LikeModule />
+                </p>
+              </div>
+              <p
+                className="bra_text_heart13088"
+                style={{
+                  display: "none",
+                  color: "#1B2738",
+                  fontSize: "12px",
+                  fontFamily: "Nunito Sans",
+                  fontWeight: "700",
+                }}
+              ></p>
             </div>
           </div>
+
+          <a
+            href="https://dealguru.se/deal/nivea-men-sensitive"
+            style={{ cursor: "pointer" }}
+            className=""
+          >
+            <div className="flex flex-shrink-0 w-24 sm:w-24 md:w-40 lg:w-auto 2xl:w-56 3xl:w-64 mb_hm_d_003">
+              <span
+                className="deals-card-img deals-img-testing-page deals_res_cards_w_increase"
+                style={{
+                  boxSizing: "border-box",
+                  display: "inline-block",
+                  overflow: "hidden",
+                  width: "initial",
+                  height: "130px",
+                  background: "none",
+                  opacity: 1,
+                  border: "0px none",
+                  margin: "0px",
+                  paddingLeft: "0px",
+                  position: "relative",
+                  maxWidth: "100%",
+                }}
+              >
+                <span
+                  className="over_image"
+                  style={{
+                    boxSizing: "border-box",
+                    display: "block",
+                    width: "initial",
+                    height: "130px",
+                    background: "none",
+                    opacity: 1,
+                    border: "0px none",
+                    margin: "0px",
+                    paddingLeft: "10px",
+                    maxWidth: "100%",
+                    fontWeight: 800,
+                    // marginLeft:"1rem"
+                    // padding:"0 5rem"
+                  }}
+                >
+                  <img
+                    alt=""
+                    src="data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMjY1IiBoZWlnaHQ9IjI2NSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiB2ZXJzaW9uPSIxLjEiLz4="
+                  />
+                  {/* NIVEA MEN Sensitive Pro After Shave Balm 100ml */}
+                </span>
+
+                <img
+                  // id="get_image13088"
+                  src="https://dealguru.se/admin/uploads/6657290be61af-61xrm3cqcnlacsl1200.jpg"
+                  className="lozad object-cover rounded-s-md transition duration-200 ease-linear transform group-hover:scale-105 images-box-responsove fade"
+                  style={{
+                    position: "absolute",
+                    inset: "0px",
+                    boxSizing: "border-box",
+                    padding: "0px",
+                    border: "medium none",
+                    margin: "auto",
+                    display: "block",
+                    maxHeight: "100%",
+                    // width:"100%"
+                    marginLeft: "1rem",
+                  }}
+                />
+              </span>
+            </div>
+          </a>
         </div>
         <div>
-          <div className="flex items-center">
+          <div className="flex items-center ml-1 mt-4">
             <h1
               style={{
                 whiteSpace: "nowrap",
                 color: "#0367DD",
                 fontWeight: 700,
-
-                fontSize: "22px",
+                fontSize: "19px",
+               
               }}
             >
               SEK 71
@@ -65,7 +141,7 @@ export default function DealPage() {
               style={{
                 marginLeft: "5px",
                 fontWeight: 700,
-                fontSize: "22px",
+                fontSize: "19px",
                 lineHeight: "27px",
                 color: "#B1B9C0",
               }}
@@ -104,6 +180,7 @@ export default function DealPage() {
                 fontSize: "17px",
                 color: "#0067e1",
                 fontWeight: 700,
+                marginLeft:"0.5rem"
               }}
             >
               Nivea
@@ -120,7 +197,7 @@ export default function DealPage() {
             </h1>
           </div>
 
-          <div className="flex mt-2 items-center">
+          <div className="flex mt-2 items-center ">
             <Image
               width={60}
               height={60}
@@ -183,7 +260,7 @@ export default function DealPage() {
             }}
           >
             <Image
-              src="https://dealguru.se/admin/uploads/65f943f22397b-61zbhh9zgvlacsl1001.jpg"
+              src="https://dealguru.se/admin/uploads/6657290be61af-61xrm3cqcnlacsl1200.jpg"
               width={150}
               height={75}
               alt="deal image"
@@ -191,16 +268,17 @@ export default function DealPage() {
             />
           </div>
 
-          <div className="md:ml-3 md:mt-0">
+          <div className="md:ml-4
+           md:mt-0">
             <h1 className="text-sm md:text-lg font-semibold leading-6 md:leading-7">
-              Try Amazon Prime absolutely free for 30 days
+              Water slide with sea animals -<br /> Playmobil
             </h1>
             <div>
               <p
                 style={{
                   color: "#1b2738",
                   fontSize: "12px",
-                  fontFamily: "'Nunito Sans'",
+                  // fontFamily: "'Nunito Sans'",
                   fontWeight: "700",
                 }}
               >
