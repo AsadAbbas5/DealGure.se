@@ -39,7 +39,9 @@ export default function DealPage() {
                   }}
                 >
                   Good deal? Vote here:
+                  <p>
                   <LikeModule />
+                  </p>
                 </p>
               </div>
               <p
