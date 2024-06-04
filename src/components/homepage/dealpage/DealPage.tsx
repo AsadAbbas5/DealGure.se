@@ -20,7 +20,7 @@ export default function DealPage() {
                   fontWeight: 700,
                   fontSize: "20px",
                   color: "#000",
-                  marginLeft: "1rem",
+                  marginLeft: "1.5rem",
                 }}
               >
                 NIVEA MEN Sensitive Pro After Shave Balm 100ml
@@ -35,7 +35,7 @@ export default function DealPage() {
                     fontSize: "12px",
                     // fontFamily: "Nunito Sans",
                     fontWeight: "700",
-                    marginLeft: "1rem",
+                    marginLeft: "1.5rem",
                   }}
                 >
                   Good deal? Vote here:
@@ -100,7 +100,6 @@ export default function DealPage() {
                     alt=""
                     src="data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMjY1IiBoZWlnaHQ9IjI2NSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiB2ZXJzaW9uPSIxLjEiLz4="
                   />
-                  
                 </span>
 
                 <img
@@ -184,7 +183,7 @@ export default function DealPage() {
             >
               Nivea
             </h1>
-       
+
             <h1
               style={{
                 fontSize: "17px",
@@ -277,7 +276,7 @@ export default function DealPage() {
               style={{
                 fontWeight: 700,
                 fontSize: "1.2rem",
-                marginLeft:"1rem"
+                marginLeft: "1rem",
               }}
             >
               Water slide with sea animals -<br /> Playmobil
@@ -289,9 +288,8 @@ export default function DealPage() {
                   fontSize: "12px",
                   // fontFamily: "'Nunito Sans'",
                   fontWeight: "700",
-                  fontFamily:"0.5rem",
-                  marginLeft:"1rem"
-                  
+                  fontFamily: "0.5rem",
+                  marginLeft: "1rem",
                 }}
               >
                 Good deal? Vote here:
@@ -312,7 +310,7 @@ export default function DealPage() {
                 lineHeight: "27px",
               }}
             >
-               SEK 176
+              SEK 176
             </h1>
             <h1
               style={{
@@ -379,7 +377,7 @@ export default function DealPage() {
             />
             <div>
               <h2 className="text-gray-400 text-[12px] font-sans font-bold">
-                Updated 1 month 
+                Updated 1 month
               </h2>
               <h1
                 style={{
@@ -419,7 +417,6 @@ export default function DealPage() {
             <CiBookmark
               style={{
                 fontSize: "2rem",
-                
               }}
             />
           </div>
