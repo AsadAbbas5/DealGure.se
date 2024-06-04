@@ -222,10 +222,10 @@ export default function DealPage() {
             </div>
             <h2
               style={{
-                marginLeft: "15rem",
+                marginLeft: "16rem",
               }}
             ></h2>
-            <div className="md:w-[40px] md:h-[40px] w-[35px] h-[35px] flex p-2 items-center justify-center rounded-md cursor-pointer">
+            <div className="md:w-[40px]  md:h-[40px] w-[35px] h-[35px] flex p-2 items-center justify-center rounded-md cursor-pointer">
               <FaComment
                 style={{
                   fontSize: "2rem",
@@ -243,7 +243,7 @@ export default function DealPage() {
           >
             Gå direkt till dealen
           </Link>
-          <div className="bg-dealguru-grey md:w-[40px] md:h-[40px] w-[35px] h-[35px] flex p-2 items-center justify-center rounded-md cursor-pointer">
+          <div className="bg-dealguru-grey ml-3 md:w-[40px] md:h-[40px] w-[35px] h-[35px] flex p-2 items-center justify-center rounded-md cursor-pointer">
             <CiBookmark
               style={{
                 fontSize: "2rem",
@@ -308,11 +308,11 @@ export default function DealPage() {
                 color: "#0367DD",
                 fontWeight: 700,
                 marginLeft: "5px",
-                fontSize: "22px",
+                fontSize: "18=px",
                 lineHeight: "27px",
               }}
             >
-              176 Kr
+               SEK 176
             </h1>
             <h1
               style={{
@@ -379,7 +379,7 @@ export default function DealPage() {
             />
             <div>
               <h2 className="text-gray-400 text-[12px] font-sans font-bold">
-                Updated 1 month ago
+                Updated 1 month 
               </h2>
               <h1
                 style={{
@@ -394,7 +394,7 @@ export default function DealPage() {
             </div>
             <h2
               style={{
-                marginLeft: "15rem",
+                marginLeft: "18rem",
               }}
             ></h2>
             <div className="md:w-[40px] md:h-[40px] w-[35px] h-[35px] flex p-2 items-center justify-center rounded-md cursor-pointer">
@@ -415,10 +415,11 @@ export default function DealPage() {
           >
             Gå direkt till dealen
           </Link>
-          <div className="bg-dealguru-grey md:w-[40px] md:h-[40px] w-[35px] h-[35px] flex p-2 items-center justify-center rounded-md cursor-pointer">
+          <div className="bg-dealguru-grey md:w-[40px] md:h-[40px] w-[35px] h-[35px] flex p-2 items-center justify-center rounded-md cursor-pointer ml-3">
             <CiBookmark
               style={{
                 fontSize: "2rem",
+                
               }}
             />
           </div>
