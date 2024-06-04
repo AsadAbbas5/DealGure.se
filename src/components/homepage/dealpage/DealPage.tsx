@@ -181,6 +181,7 @@ export default function DealPage() {
                 fontSize: "17px",
                 color: "#0067e1",
                 fontWeight: 700,
+                marginLeft:"5px"
               }}
             >
               Nivea
@@ -301,15 +302,13 @@ export default function DealPage() {
           </div>
         </div>
         <div>
-          <div className="flex items-center">
+          <div className="flex items-center ml-2 mt-4">
             <h1
-              style={{
+               style={{
                 whiteSpace: "nowrap",
                 color: "#0367DD",
                 fontWeight: 700,
-                // marginLeft: "7px",
-                fontSize: "18=px",
-                lineHeight: "27px",
+                fontSize: "19px",
               }}
             >
               SEK 176
@@ -325,7 +324,7 @@ export default function DealPage() {
             </h1>
           </div>
 
-          <div className="flex items-start mt-2">
+          <div className="flex items-start mt-2 ml-2">
             <h1
               style={{
                 fontSize: "17px",
@@ -359,6 +358,7 @@ export default function DealPage() {
           </div>
           <h1
             style={{
+              marginLeft:"5px",
               fontWeight: 600,
               fontSize: "15px",
               marginTop: "10px",
