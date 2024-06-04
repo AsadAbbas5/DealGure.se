@@ -175,7 +175,7 @@ export default function DealPage() {
               Amzone
             </h3>
           </div>
-          <div className="flex items-start mt-2">
+          <div className="flex items-start mt-4">
             <h1
               style={{
                 fontSize: "17px",
