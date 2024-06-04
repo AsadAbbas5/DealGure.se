@@ -71,9 +71,9 @@ export default function DealDetial() {
           </span>
           <span
             className="ml-4"
-            style={{fontSize: "14px",display: "inline-flex",flexWrap: "wrap" ,
+            style={{fontSize: "16px",display: "inline-flex",flexWrap: "wrap" ,fontFamily:'Nunito Sans',
             width :"max-content",color:"#0067e1",
-            fontWeight:650
+            fontWeight:700
             
 
             }}
@@ -82,7 +82,7 @@ export default function DealDetial() {
           </span>
           <span
             style={{
-              fontSize: "13px",
+              fontSize: "15px",
               fontFamily: "Nunito Sans",
               fontStyle: "normal",
               fontWeight: 800,

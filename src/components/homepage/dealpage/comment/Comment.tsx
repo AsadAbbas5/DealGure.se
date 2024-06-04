@@ -59,7 +59,7 @@ function Comment() {
           </p>
           <p
             style={{
-              marginLeft: "23rem",
+              marginLeft: "22rem",
               fontSize: "15px",
               color: "darkgray",
               fontFamily: "Nunito Sans",
@@ -145,7 +145,7 @@ function Comment() {
               </h2>
               <p
                 style={{
-                  marginLeft: "25rem",
+                  marginLeft: "27rem",
                   fontSize: "15px",
                   color: "darkgray",
                   fontFamily: "Nunito Sans",
@@ -155,8 +155,7 @@ function Comment() {
                   marginTop: "0.5rem",
                 }}
               >
-                14 days, 3 hours, 57 minutes ago
-              </p>
+                14 days, 3 hours, 57 minutes               </p>
             </div>
 
             <div>
