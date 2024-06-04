@@ -20,6 +20,7 @@ export default function DealPage() {
                   fontWeight: 700,
                   fontSize: "20px",
                   color: "#000",
+                  marginLeft:"2.7px"
                 }}
               >
                 NIVEA MEN Sensitive Pro After Shave Balm 100ml
@@ -279,7 +280,7 @@ export default function DealPage() {
               style={{
                 fontWeight: 700,
                 fontSize: "1.2rem",
-                marginLeft: "10px",
+                marginLeft: "21px",
               }}
             >
               Water slide with sea animals -<br /> Playmobil
