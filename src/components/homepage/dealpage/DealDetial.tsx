@@ -8,7 +8,7 @@ import DealLikeModule from "./DealLikeModule";
 
 export default function DealDetial() {
   return (
-    <div className="mt-2 ml-2">
+    <div className=" ml-2">
       <div className="w-[730px]  min-h-[220px]  bg-white rounded-xl shadow-lg shadow-gray-200 p-4 gap-3 max-md:items-start items-center">
         <div
           className="flex"
@@ -30,15 +30,22 @@ export default function DealDetial() {
           <DealLikeModule />
         </div>
 
-        <div className="flex deal-single-price deals-price font-semibold text-sm sm:text-base  space-s-2 sm:text-xl md:text-base lg:text-xl  2xl:mt-3 text-heading pt-4" style={{
-          alignItems:"center"
-        }}>
+        <div
+          className="flex deal-single-price deals-price font-semibold text-sm sm:text-base  space-s-2 sm:text-xl md:text-base lg:text-xl  2xl:mt-3 text-heading pt-4"
+          style={{
+            alignItems: "center",
+          }}
+        >
           <span
             className="font-bold "
-            style={{ color: "#0367DD", whiteSpace: "nowrap",
-            alignItems: "center",display: "flex!important",width:"100%, !important", fontSize: "20px",
-            fontWeight:700
-
+            style={{
+              color: "#0367DD",
+              whiteSpace: "nowrap",
+              alignItems: "center",
+              display: "flex!important",
+              width: "100%, !important",
+              fontSize: "20px",
+              fontWeight: 700,
             }}
           >
             SEK 1,083
@@ -56,11 +63,9 @@ export default function DealDetial() {
             SEK 1,495
           </s>
           <span
-           
             style={{
               backgroundColor: "#0367DD",
               borderRadius: "5px",
-              
               padding: "10px",
               color: "#fff",
               fontSize: "15px",
@@ -71,35 +76,36 @@ export default function DealDetial() {
           </span>
           <span
             className="ml-4"
-            style={{fontSize: "16px",display: "inline-flex",flexWrap: "wrap" ,fontFamily:'Nunito Sans',
-            width :"max-content",color:"#0067e1",
-            fontWeight:700
-            
-
+            style={{
+              display: "block",
+              width: "maxContent ",
+              color: "#0067e1",
+              fontSize: "13px",
+              flexWrap: "wrap",
             }}
           >
             Amazone
           </span>
           <span
             style={{
-              fontSize: "15px",
-              fontFamily: "Nunito Sans",
-              fontStyle: "normal",
-              fontWeight: 800,
-              color: "rgb(0, 103, 225)",
+              display: "block",
+              width: " max-content",
+              marginLeft: "7px",
+              color: "#0067e1",
+              fontSize: "13px",
+              flexWrap: "wrap",
             }}
-            className="ml-3"
           >
             Prams
           </span>
           <span
-            className={`${nunito_Sans.className} ml-3`}
             style={{
-              fontSize: "15px",
-              fontFamily: "Nunito Sans",
-              fontStyle: "normal",
-              fontWeight: 800,
-              color: "rgb(0, 103, 225)",
+              display: "block",
+              width: "maxContent ",
+              color: "#0067e1",
+              fontSize: "13px",
+              flexWrap: "wrap",
+              marginLeft: "10px",
             }}
           >
             Children
@@ -116,20 +122,20 @@ export default function DealDetial() {
             />
           </div>
           <div
-            className=" ml-3"
+            className="text-body text-xs lg:text-sm leading-normal xl:leading-relaxed gaping_fix av_p_text_003 ps-1 pe-2 ml-3"
             style={{
               color: "rgba(27, 39, 56, 0.5)",
-              fontSize: "12px",
-              fontFamily: "Nunito Sans",
+              fontSize: "13px",
+            
               fontWeight: 700,
+              width: "fit-content",
               marginTop: "1rem",
             }}
           >
-            Checked 1 day ago by DealGuru-Sebastian
+            Updated 7 days ago by DealGuru-Sebastian
           </div>
-            
-          <CommentModules/>
-          
+
+          <CommentModules />
         </div>
       </div>
     </div>

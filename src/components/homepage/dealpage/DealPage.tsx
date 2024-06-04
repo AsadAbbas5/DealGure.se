@@ -20,7 +20,6 @@ export default function DealPage() {
                   fontWeight: 700,
                   fontSize: "20px",
                   color: "#000",
-                  marginLeft: "1.5rem",
                 }}
               >
                 NIVEA MEN Sensitive Pro After Shave Balm 100ml
@@ -33,13 +32,16 @@ export default function DealPage() {
                   style={{
                     color: "#1B2738",
                     fontSize: "12px",
+                    marginLeft:"4px",
                     // fontFamily: "Nunito Sans",
                     fontWeight: "700",
-                    marginLeft: "1.5rem",
                   }}
                 >
                   Good deal? Vote here:
-                  <p>
+                  <p style={{
+                    marginRight:"6px"
+                  }}>
+
                   <LikeModule />
                   </p>
                 </p>
@@ -126,7 +128,7 @@ export default function DealPage() {
           </a>
         </div>
         <div>
-          <div className="flex items-center ml-1 mt-4">
+          <div className="flex items-center  mt-4">
             <h1
               style={{
                 whiteSpace: "nowrap",
@@ -162,7 +164,6 @@ export default function DealPage() {
             >
               -54%
             </h2>
-
             <h3
               style={{
                 fontSize: "15px",
@@ -180,7 +181,6 @@ export default function DealPage() {
                 fontSize: "17px",
                 color: "#0067e1",
                 fontWeight: 700,
-                marginLeft: "0.5rem",
               }}
             >
               Nivea
@@ -191,7 +191,7 @@ export default function DealPage() {
                 fontSize: "17px",
                 color: "#0067e1",
                 fontWeight: 700,
-                marginLeft: "10px",
+                marginLeft:"10px"
               }}
             >
               Skincare
@@ -257,7 +257,7 @@ export default function DealPage() {
         <div className="flex flex-col md:flex-row items-start justify-start md:items-center md:justify-start">
           <div
             style={{
-              marginLeft: "2rem",
+              marginLeft: "2.5rem",
             }}
           >
             <Image
@@ -307,7 +307,7 @@ export default function DealPage() {
                 whiteSpace: "nowrap",
                 color: "#0367DD",
                 fontWeight: 700,
-                marginLeft: "5px",
+                // marginLeft: "7px",
                 fontSize: "18=px",
                 lineHeight: "27px",
               }}

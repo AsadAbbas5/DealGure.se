@@ -36,12 +36,12 @@ function Comment() {
         </div>
       </div>
       <div>
-        <div className="flex">
+        <div className="flex items-center ml-3">
           <Image
-            width={60}
-            height={60}
+            width={50}
+            height={50}
             src="/blank_avatar_new.png"
-            className="w-[60px] h-[60px] rounded-full p-2"
+            className="w-[50px] h-[50px] rounded-full p-2"
             alt="Avatar"
           />
           <p
@@ -51,10 +51,10 @@ function Comment() {
               fontSize: "12px",
               lineHeight: "20px",
               color: "#1B2738",
-              marginTop: "25px",
+              // marginTop: "25px",
             }}
           >
-            The DealGuru Team
+            The Deal Guru Team
           </p>
           <p
             style={{
@@ -66,7 +66,7 @@ function Comment() {
               fontStyle: "normal",
               fontWeight: 500,
               // lineHeight: "16px",
-              marginTop: "2.5rem",
+              // marginTop: "2.5rem",
             }}
           >
             6 days, 20 hours, 17 minutes ago
@@ -84,8 +84,7 @@ function Comment() {
           DealGuru- Sebastian
         </p>
         <div className="mt-2 flex items-center ml-16">
-          <TbArrowBigUpFilled
-            className="text-blue-600"
+          <PiArrowFatUpLight
             style={{
               fontSize: "1.1rem",
             }}
@@ -110,10 +109,10 @@ function Comment() {
         <div className="flex">
           <div>
             <Image
-              width={60}
-              height={60}
+              width={20}
+              height={20}
               src="https://dealguru.se/images/mannew2.png"
-              className="w-[60px] h-[60px] rounded-full p-2 sm:w-60"
+              className="w-[20px] h-[20px] rounded-full  sm:w-60"
               alt="Avatar"
               style={{
                 marginRight: "5px",
@@ -153,7 +152,7 @@ function Comment() {
                   fontStyle: "normal",
                   fontWeight: 400,
                   lineHeight: "16px",
-                  marginTop: "0.5rem",
+                 
                 }}
               >
                 14 days, 3 hours, 57 minutes
