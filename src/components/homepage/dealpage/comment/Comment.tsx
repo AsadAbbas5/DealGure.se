@@ -109,19 +109,19 @@ function Comment() {
         <div className="flex">
           <div>
             <Image
-              width={20}
-              height={20}
+              width={10}
+              height={10}
               src="https://dealguru.se/images/mannew2.png"
-              className="w-[20px] h-[20px] rounded-full  sm:w-60"
+              className="w-[10px] h-[10px] rounded-full  sm:w-60"
               alt="Avatar"
               style={{
                 marginRight: "5px",
                 backgroundColor: "#00ffea",
                 padding: "5px",
                 borderRadius: "200px",
-                width: "40px",
+                width: "35px",
                 backgroundSize: "cover",
-                height: "40px",
+                height: "35px",
                 objectFit: "scale-down",
                 border: "1px solid #d0d0d0",
                 marginLeft: "1rem",
