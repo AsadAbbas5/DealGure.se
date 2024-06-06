@@ -20,7 +20,7 @@ export default function DealPage() {
                   fontWeight: 700,
                   fontSize: "20px",
                   color: "#000",
-                  marginLeft: "2.7px",
+                  marginLeft: "2px",
                 }}
               >
                 NIVEA MEN Sensitive Pro After Shave Balm 100ml
@@ -33,7 +33,7 @@ export default function DealPage() {
                   style={{
                     color: "#1B2738",
                     fontSize: "12px",
-                    marginLeft: "4px",
+                    marginLeft: "2px",
                     // fontFamily: "Nunito Sans",
                     fontWeight: "700",
                   }}
@@ -41,7 +41,7 @@ export default function DealPage() {
                   Good deal? Vote here:
                   <p
                     style={{
-                      marginRight: "8px",
+                      marginRight: "9px",
                     }}
                   >
                     <LikeModule />
@@ -110,7 +110,7 @@ export default function DealPage() {
 
                 <img
                   // id="get_image13088"
-                  src="https://dealguru.se/admin/uploads/6657290be61af-61xrm3cqcnlacsl1200.jpg"
+                  src="https://dealguru.se/admin/uploads/66409c14268ff-71pht10-enlacsl1500.jpg"
                   className="lozad object-cover rounded-s-md transition duration-200 ease-linear transform group-hover:scale-105 images-box-responsove fade"
                   style={{
                     position: "absolute",
