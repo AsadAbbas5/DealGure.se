@@ -7,7 +7,7 @@ function PargrahData() {
 
   
     <div className="ml-3">
-      <div className="w-[730px]   min-h-[250px] mt-6 bg-white rounded-xl shadow-lg shadow-gray-200 p-4 gap-3 flex flex-col">
+      <div className="w-[95%] min-h-[250px] mt-6 bg-white rounded-xl shadow-lg shadow-gray-200 p-4 gap-3 flex flex-col">
         <div>
           <h1
             style={{
@@ -152,14 +152,15 @@ function PargrahData() {
             color: "rgb(49, 49, 49)",
             fontSize: "inherit",
             fontWeight: "inherit",
+            marginLeft:"5px"
           }}
         >
           What Do You think
         </h1>
       </div>
+    <Comment />
      
     </div>
-    <Comment />
     </div>
   );
 }

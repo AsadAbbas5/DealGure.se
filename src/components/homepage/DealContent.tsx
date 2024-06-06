@@ -18,7 +18,7 @@ const DealContent = () => {
     return () => window.removeEventListener("resize", checkScreenWidth);
   }, []);
   return (
-    <div className="md:col-span-7 border-gray-300 rounded-lg">
+    <div className="md:col-span-7 border-gray-300 rounded-lg ml-[43px]">
       <div className="flex md:items-end justify-between md:flex-row flex-col items-start gap-2 md:mb-0 min-h-11">
         <div className="flex mt-2 items-center">
           <div className="flex items-center ml-4 mt-1">
@@ -88,7 +88,7 @@ const DealContent = () => {
       </div>
 
       <div className="flex flex-col md:flex-row gap-3">
-        <div className="w-full md:w-2/5">
+        <div className="w-full md:w-2/5 ml-4">
           <ImageSlider />
         </div>
         <div className="w-full md:w-3/5 xl:ml-4">

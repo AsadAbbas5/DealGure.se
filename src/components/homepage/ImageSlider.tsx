@@ -98,7 +98,7 @@ const ImageSlider = () => {
       </div>
 
       <h1
-        className="mt-3 ml-2  font-normal  text-[20px] text-[#1B2738]"
+        className="mt-3 ml-1  font-normal  text-[20px] text-[#1B2738]"
         style={{
           fontWeight: 700,
         }}

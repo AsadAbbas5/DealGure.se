@@ -16,7 +16,7 @@ export const metadata: Metadata = {
 const nunitoSans = Nunito_Sans({
   subsets: ["latin"],
   display: "swap",
-  weight: ["200", "400", "700", "900"], 
+  weight: ["200", "400", "700", "900"],
 });
 
 export default function RootLayout({
@@ -27,17 +27,15 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body className={nunitoSans.className}>
-        {/* <div
-        style={{
-          position: "fixed",
-          height: '100vh',
-          borderLeft: "1px solid black",
-          left: "255px",
-          zIndex: 110,
-        }}
-        >
-
-        </div> */}
+        <div
+          style={{
+            position: "fixed",
+            height: "100vh",
+            borderLeft: "1px solid black",
+            left: "70px",
+            zIndex: 110,
+          }}
+        ></div>
         <Navbar />
         {children}
         <Footer />

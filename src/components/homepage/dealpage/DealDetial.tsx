@@ -8,8 +8,8 @@ import DealLikeModule from "./DealLikeModule";
 
 export default function DealDetial() {
   return (
-    <div className=" ml-2">
-      <div className="w-[730px]  min-h-[220px]  bg-white rounded-xl shadow-lg shadow-gray-200 p-4 gap-3 max-md:items-start items-center">
+    <div className=" ml-4">
+      <div className="w-[95%]  min-h-[220px]  bg-white rounded-xl shadow-lg shadow-gray-200 p-4 gap-3 max-md:items-start items-center">
         <div
           className="flex"
           style={{ flexDirection: "row", alignItems: "center" }}
@@ -117,7 +117,7 @@ export default function DealDetial() {
               width={30}
               height={30}
               src="/blank_avatar_new.png"
-              className="w-[30px] h-[30px] rounded-full p-1 mt-5 ml-3 border-[0.3px] border-gray-400"
+              className="w-[30px] h-[30px] rounded-full p-1 mt-5 ml-1 border-[0.3px] border-gray-400"
               alt="Avatar"
             />
           </div>

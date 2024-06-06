@@ -20,7 +20,7 @@ export default function DealPage() {
                   fontWeight: 700,
                   fontSize: "20px",
                   color: "#000",
-                  marginLeft:"2.7px"
+                  marginLeft: "2.7px",
                 }}
               >
                 NIVEA MEN Sensitive Pro After Shave Balm 100ml
@@ -33,17 +33,18 @@ export default function DealPage() {
                   style={{
                     color: "#1B2738",
                     fontSize: "12px",
-                    marginLeft:"4px",
+                    marginLeft: "4px",
                     // fontFamily: "Nunito Sans",
                     fontWeight: "700",
                   }}
                 >
                   Good deal? Vote here:
-                  <p style={{
-                    marginRight:"8px"
-                  }}>
-
-                  <LikeModule />
+                  <p
+                    style={{
+                      marginRight: "8px",
+                    }}
+                  >
+                    <LikeModule />
                   </p>
                 </p>
               </div>
@@ -182,7 +183,7 @@ export default function DealPage() {
                 fontSize: "17px",
                 color: "#0067e1",
                 fontWeight: 700,
-                marginLeft:"5px"
+              
               }}
             >
               Nivea
@@ -193,13 +194,24 @@ export default function DealPage() {
                 fontSize: "17px",
                 color: "#0067e1",
                 fontWeight: 700,
-                marginLeft:"10px"
+                marginLeft: "10px",
               }}
             >
               Skincare
             </h1>
           </div>
+          <div>
+            <h1 style={{
+              fontSize:"14px",
+              fontWeight:700,
+              marginTop:"5px",
+              // marginLeft: "5px",
 
+            }}>
+              This fun PAW Patrol toy brings all the action in the movie to
+              life!
+            </h1>
+          </div>
           <div className="flex mt-2 items-center ">
             <Image
               width={60}
@@ -208,34 +220,23 @@ export default function DealPage() {
               className="w-[50px] h-[50px] rounded-full p-2"
               alt="Avatar"
             />
-            <div>
-              <h2 className="text-gray-400 text-[12px] font-sans font-bold">
-                Updated 5 days ago by
-              </h2>
-              <h1
-                style={{
-                  fontWeight: 700,
-                  fontSize: "12px",
-                  textTransform: "capitalize",
-                  color: "#1B2738",
-                }}
-              >
-                Dealjoanna.W.Wozniak1
-              </h1>
+            <div className="w-full">
+              <div className="flex justify-between items-center">
+                <h2 className="text-gray-400 text-[12px] font-sans font-bold">
+                  Updated 5 days ago by
+                </h2>
+
+                <div className="md:w-[40px]  md:h-[40px] w-[35px] h-[35px] flex p-2 items-center justify-center rounded-md cursor-pointer">
+                  <FaComment
+                    style={{
+                      fontSize: "1.2rem",
+                      color: "darkgray",
+                    }}
+                  />
+                </div>
+              </div>
             </div>
-            <h2
-              style={{
-                marginLeft: "16rem",
-              }}
-            ></h2>
-            <div className="md:w-[40px]  md:h-[40px] w-[35px] h-[35px] flex p-2 items-center justify-center rounded-md cursor-pointer">
-              <FaComment
-                style={{
-                  fontSize: "2rem",
-                  color: "darkgray",
-                }}
-              />
-            </div>
+
             <h1 style={{ color: "darkgray" }}>0</h1>
           </div>
         </div>
@@ -249,7 +250,7 @@ export default function DealPage() {
           <div className="bg-dealguru-grey ml-3 md:w-[40px] md:h-[40px] w-[35px] h-[35px] flex p-2 items-center justify-center rounded-md cursor-pointer">
             <CiBookmark
               style={{
-                fontSize: "2rem",
+                fontSize: "1.2rem",
               }}
             />
           </div>
@@ -257,11 +258,7 @@ export default function DealPage() {
       </div>
       <div className=" w-full min-h-[350px] mt-3 bg-white rounded-xl shadow-lg shadow-gray-200  p-4 flex flex-col gap-3 items-stretch">
         <div className="flex flex-col md:flex-row items-start justify-start md:items-center md:justify-start">
-          <div
-            style={{
-              marginLeft: "2.5rem",
-            }}
-          >
+          <div>
             <Image
               src="https://dealguru.se/admin/uploads/65f943f22397b-61zbhh9zgvlacsl1001.jpg"
               width={200}
@@ -305,7 +302,7 @@ export default function DealPage() {
         <div>
           <div className="flex items-center  mt-4">
             <h1
-               style={{
+              style={{
                 whiteSpace: "nowrap",
                 color: "#0367DD",
                 fontWeight: 700,
@@ -378,30 +375,29 @@ export default function DealPage() {
               className="w-[50px] h-[50px] rounded-full p-2"
               alt="Avatar"
             />
-            <div>
+
+            <div className="w-full">
+              <div className="flex justify-between">
+                <h1
+                  style={{
+                    fontWeight: 700,
+                    fontSize: "12px",
+                    textTransform: "capitalize",
+                    color: "#1B2738",
+                  }}
+                >
+                  john
+                </h1>
+              </div>
               <h2 className="text-gray-400 text-[12px] font-sans font-bold">
                 Updated 1 month
               </h2>
-              <h1
-                style={{
-                  fontWeight: 700,
-                  fontSize: "12px",
-                  textTransform: "capitalize",
-                  color: "#1B2738",
-                }}
-              >
-                john
-              </h1>
             </div>
-            <h2
-              style={{
-                marginLeft: "18rem",
-              }}
-            ></h2>
+
             <div className="md:w-[40px] md:h-[40px] w-[35px] h-[35px] flex p-2 items-center justify-center rounded-md cursor-pointer">
               <FaComment
                 style={{
-                  fontSize: "2rem",
+                  fontSize: "1.2rem",
                   color: "darkgray",
                 }}
               />
@@ -419,7 +415,7 @@ export default function DealPage() {
           <div className="bg-dealguru-grey md:w-[40px] md:h-[40px] w-[35px] h-[35px] flex p-2 items-center justify-center rounded-md cursor-pointer ml-3">
             <CiBookmark
               style={{
-                fontSize: "2rem",
+                fontSize: "1.2rem",
               }}
             />
           </div>

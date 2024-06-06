@@ -12,32 +12,32 @@ function CommentModules() {
         <div className=" bg-dealguru-grey md:w-[40px] md:h-[40px] w-[35px] h-[35px] flex p-2 items-center justify-center rounded-md cursor-pointer ">
           <IoFlagSharp
             style={{
-              fontSize: "2rem",
-              color: "darkgray",
+              fontSize: "1.5rem",
+              color: "#727885"
             }}
           />
         </div>
         <div className=" bg-dealguru-grey md:w-[40px] md:h-[40px] w-[35px] h-[35px] flex p-2 items-center justify-center rounded-md cursor-pointer">
           <FaComment
             style={{
-              fontSize: "2rem",
-              color: "darkgray",
+              fontSize: "1.5rem",
+              color: "#727885"
             }}
           />
         </div>
         <div className=" bg-dealguru-grey md:w-[40px] md:h-[40px] w-[35px] h-[35px] flex p-2 items-center justify-center rounded-md cursor-pointer">
           <IoMdShare
             style={{
-              fontSize: "2rem",
-              color: "darkgray",
+              fontSize: "1.5rem",
+              color: "#727885"
             }}
           />
         </div>
         <div className=" bg-dealguru-grey md:w-[40px] md:h-[40px] w-[35px] h-[35px] flex p-2 items-center justify-center rounded-md cursor-pointer">
           <FaBookmark
             style={{
-              fontSize: "2rem",
-              color: "darkgray",
+              fontSize: "1.5rem",
+              color: "#727885",
             }}
           />
         </div>
