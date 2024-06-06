@@ -7,7 +7,7 @@ import { IoFlagSharp } from "react-icons/io5";
 
 function CommentModules() {
   return (
-    <div className="flex flex-1 items-end  h-fit mt-6 flex-col ml gap-4 max-md:items-start max-md:gap-2">
+    <div className="flex flex-1 items-end  h-fit  flex-col ml gap-4 max-md:items-start max-md:gap-2">
       <div className="flex md:gap-2 gap-1">
         <div className=" bg-dealguru-grey md:w-[40px] md:h-[40px] w-[35px] h-[35px] flex p-2 items-center justify-center rounded-md cursor-pointer ">
           <IoFlagSharp

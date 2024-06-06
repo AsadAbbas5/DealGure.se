@@ -117,12 +117,12 @@ export default function DealDetial() {
               width={30}
               height={30}
               src="/blank_avatar_new.png"
-              className="w-[30px] h-[30px] rounded-full p-1 mt-5 ml-1 border-[0.3px] border-gray-400"
+              className="w-[30px] h-[30px] rounded-full p-1 mt-5  border-[0.3px] border-gray-400"
               alt="Avatar"
             />
           </div>
           <div
-            className="text-body text-xs lg:text-sm leading-normal xl:leading-relaxed gaping_fix av_p_text_003 ps-1 pe-2 ml-3"
+            className="text-body text-xs lg:text-sm leading-normal xl:leading-relaxed gaping_fix av_p_text_003 ps-1 pe-2 ml-1"
             style={{
               color: "rgba(27, 39, 56, 0.5)",
               fontSize: "13px",
