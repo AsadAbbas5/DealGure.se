@@ -28,10 +28,11 @@ function Comment() {
             placeholder="Log in or sign up to comment"
             className="font-sans w-[90%] w-full rounded-md comment_login"
             style={{
+              color:"blue",
               borderRadius: "200px",
               padding: "3%",
               border: "1px solid rgb(237, 239, 241)",
-              fontFamily: "Nunito Sans !important",
+              // fontFamily: "Nunito Sans",
               fontSize: "12px",
             }}
           />

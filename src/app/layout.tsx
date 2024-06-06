@@ -27,7 +27,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body className={nunitoSans.className}>
-        <div
+        {/* <div
           style={{
             position: "fixed",
             height: "100vh",
@@ -35,7 +35,7 @@ export default function RootLayout({
             left: "70px",
             zIndex: 110,
           }}
-        ></div>
+        ></div> */}
         <Navbar />
         {children}
         <Footer />
