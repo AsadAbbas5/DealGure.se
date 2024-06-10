@@ -5,27 +5,24 @@ import DealDetial from "./dealpage/DealDetial";
 import ImageSlider from "./ImageSlider";
 import PargrahData from "./dealpage/PargrahData";
 import { nunito_Sans } from "../ui/fonts";
-
 const DealContent = () => {
   const [isMobile, setIsMobile] = useState(false);
   useEffect(() => {
     const checkScreenWidth = () => {
       setIsMobile(window.innerWidth <= 768);
     };
-
     checkScreenWidth();
     window.addEventListener("resize", checkScreenWidth);
     return () => window.removeEventListener("resize", checkScreenWidth);
   }, []);
   return (
-    <div className="md:col-span-7 border-gray-300 rounded-lg ml-[43px]">
+    <div className="sm:w-full md:col-span-7  border-gray-300 rounded-lg">
       <div className="flex md:items-end justify-between md:flex-row flex-col items-start gap-2 md:mb-0 min-h-11">
         <div className="flex mt-2 items-center">
-          <div className="flex items-center ml-4 mt-1">
+          <div className="flex items-center ml-10 mt-1">
             <h5
               style={{
                 // fontFamily: `"Nunito Sans", sans-serif`,
-
                 marginBottom: "1rem",
                 fontStyle: "normal",
                 fontWeight: 400,
@@ -88,10 +85,12 @@ const DealContent = () => {
       </div>
 
       <div className="flex flex-col md:flex-row gap-3">
-        <div className="w-full md:w-2/5 ml-4">
+      <div className="w-full md:w-2/5 md:ml-4 sm:ml-0">
+
           <ImageSlider />
         </div>
-        <div className="w-full md:w-3/5 xl:ml-4">
+        <div className="w-full md:w-3/5 sm:w-[100%]">
+
           <DealDetial />
           <PargrahData />
         </div>

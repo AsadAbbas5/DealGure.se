@@ -3,7 +3,7 @@ import React from "react";
 
 const LikeModule = () => {
   return (
-    <div className="flex flex-1 items-end h-fit mr-40 mt-1 flex-col gap-4 max-md:items-start max-md:gap-2">
+    <div className="flex h-fit# mt-1 flex-col gap-4 max-md:items-start max-md:gap-2">
       <div className="flex md:gap-2 gap-1">
         <div className="border border-dealguru-blue md:min-w-[40px] md:min-h-[40px] max-w-[35px] h-[35px] flex p-2 items-center justify-center rounded-md  ">
           <span style={{

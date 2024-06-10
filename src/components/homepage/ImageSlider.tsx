@@ -31,15 +31,14 @@ const ImageSlider = () => {
       selectedImage === 0 ? images.length - 1 : selectedImage - 1
     );
   };
-
   const handleNext = () => {
     setSelectedImage(
       selectedImage === images.length - 1 ? 0 : selectedImage + 1
     );
   };
   return (
-    <div>
-      <div className="w-full  max-w-[600px] min-h-[540px] bg-white rounded-xl shadow-lg shadow-gray-200 flex flex-col gap-3 items-center mx-auto ">
+    <div className="max-sm:h-[1px]">
+      <div className=" sm:w-full  max-w-[600px]  min-h-[530px] bg-white rounded-xl shadow-lg shadow-gray-200 flex flex-col gap-3 items-center mx-auto">
         <div className="relative w-full h-full flex justify-center items-center group">
           <button
             onClick={handlePrevious}

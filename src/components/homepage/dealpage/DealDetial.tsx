@@ -8,15 +8,15 @@ import DealLikeModule from "./DealLikeModule";
 
 export default function DealDetial() {
   return (
-    <div className=" ml-4">
-      <div className="w-[95%]  min-h-[220px]  bg-white rounded-xl shadow-lg shadow-gray-200 p-4 gap-3 max-md:items-start items-center">
+    <div>
+      <div className=" sm:w-[100%] md:w-[95%]  min-h-[220px] bg-white rounded-xl shadow-lg shadow-gray-200 p-4 gap-3 max-md:items-start items-center">
         <div
           className="flex"
           style={{ flexDirection: "row", alignItems: "center" }}
         >
           <p
             className={
-              "text-heading text-lg md:text-xl lg:text-2xl 2xl:text-3xl font-bold hover:text-black mb-3.5"
+              "text-heading text-[12px] md:text-xl lg:text-2xl 2xl:text-3xl font-bold hover:text-black mb-3.5"
             }
             style={{
               fontFamily: `"Open Sans", sans-serif`,
@@ -29,15 +29,14 @@ export default function DealDetial() {
 
           <DealLikeModule />
         </div>
-
         <div
-          className="flex deal-single-price deals-price font-semibold text-sm sm:text-base  space-s-2 sm:text-xl md:text-base lg:text-xl  2xl:mt-3 text-heading pt-4"
+          className="flex deal-single-price deals-price font-semibold text-sm sm:text-base  space-s-2 sm:text-xl md:text-base lg:text-xl  2xl:mt-3 text-heading pt-4 "
           style={{
             alignItems: "center",
           }}
         >
           <span
-            className="font-bold "
+            className="font-bold sm:text-[5px]"
             style={{
               color: "#0367DD",
               whiteSpace: "nowrap",
@@ -52,13 +51,14 @@ export default function DealDetial() {
           </span>
 
           <s
+            className="text-heading text-[13px] md:text-xl lg:text-2xl 2xl:text-3xl"
             style={{
               fontWeight: 700,
               color: "#B1B9C0",
               lineHeight: "1.75rem",
-              fontSize: "1.5rem",
+              // fontSize: "1.5rem",
+              marginLeft: "10px",
             }}
-            className="ml-2"
           >
             SEK 1,495
           </s>
@@ -69,34 +69,10 @@ export default function DealDetial() {
               padding: "10px",
               color: "#fff",
               fontSize: "15px",
-              marginLeft: "1rem",
+              marginLeft: "10px",
             }}
           >
             -36%
-          </span>
-          <span
-            className="ml-4"
-            style={{
-              display: "block",
-              width: "maxContent ",
-              color: "#0067e1",
-              fontSize: "13px",
-              flexWrap: "wrap",
-            }}
-          >
-            Amazone
-          </span>
-          <span
-            style={{
-              display: "block",
-              width: " max-content",
-              marginLeft: "7px",
-              color: "#0067e1",
-              fontSize: "13px",
-              flexWrap: "wrap",
-            }}
-          >
-            Prams
           </span>
           <span
             style={{
@@ -108,34 +84,58 @@ export default function DealDetial() {
               marginLeft: "10px",
             }}
           >
-            Children
+            Amazone
           </span>
-        </div>
-        <div className="flex items-center">
-          <div>
-            <Image
-              width={30}
-              height={30}
-              src="/blank_avatar_new.png"
-              className="w-[30px] h-[30px] rounded-full p-1 mt-5  border-[0.3px] border-gray-400"
-              alt="Avatar"
-            />
-          </div>
-          <div
-            className="text-body text-xs lg:text-sm leading-normal xl:leading-relaxed gaping_fix av_p_text_003 ps-1 pe-2 ml-1"
+          <span
             style={{
-              color: "rgba(27, 39, 56, 0.5)",
+              display: "block",
+              width: " max-content",
+
+              color: "#0067e1",
               fontSize: "13px",
-            
-              fontWeight: 700,
-              width: "fit-content",
-              marginTop: "1rem",
+              flexWrap: "wrap",
+              marginLeft: "10px",
             }}
           >
-            Updated 7 days ago by DealGuru-Sebastian
+            Prams
+          </span>
+          {/* <span
+            style={{
+              display: "block",
+              width: "maxContent ",
+              color: "#0067e1",
+              fontSize: "13px",
+              flexWrap: "wrap",
+              marginLeft: "10px",
+            }}
+          >
+            Children
+          </span> */}
+        </div>
+        <div>
+          <div className="md:flex items-center">
+            <div>
+              <Image
+                width={30}
+                height={30}
+                src="/blank_avatar_new.png"
+                className="sm:mt w-[30px] h-[30px] rounded-full p-1 mt-5 border-[0.3px] border-gray-400"
+                alt="Avatar"
+              />
+            </div>
+            <div
+              className="text-body text-xs lg:text-sm leading-normal xl:leading-relaxed gaping_fix av_p_text_003 ps-1 pe-2 ml-1 mt-5 md:mt-0 md:ml-2"
+              style={{
+                color: "rgba(27, 39, 56, 0.5)",
+                fontSize: "13px",
+                fontWeight: 700,
+                width: "fit-content",
+              }}
+            >
+              Updated 7 days ago by DealGuru-Sebastian
+            </div>
+            <CommentModules className="md:ml-2 mt-5 md:mt-0" />
           </div>
-
-          <CommentModules />
         </div>
       </div>
     </div>

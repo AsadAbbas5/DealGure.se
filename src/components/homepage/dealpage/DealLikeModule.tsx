@@ -3,7 +3,7 @@ import React from "react";
 
 const DealLikeModule = () => {
   return (
-    <div className="flex flex-1 items-end h-fit  flex-col gap-4 max-md:items-start max-md:gap-2">
+    <div className="flex flex-1 items-end ml-4 h-fit  flex-col gap-4 max-md:items-start max-md:gap-2">
       <div>
       <span
         className="font-bold  text-sm bg-dealguru-grey text-blue-500"
