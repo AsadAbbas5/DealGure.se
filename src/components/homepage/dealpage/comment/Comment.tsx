@@ -150,12 +150,12 @@ function Comment() {
             className="w-[50px] h-[50px] rounded-full p-2 mt-3 ml-1"
             alt="Avatar"
           />
-         <div className="w-full">
+     <div className="w-full">
   <div className="flex justify-between w-full mt-3">
-    <p className="font-semibold text-[#1B2738] ml-1 mt-1 text-[1x] md:text-[12px] sm:text-[9px]">
+    <p className="font-semibold text-[#1B2738] ml-1 mt-1 text-[5px] md:text-[12px] sm:text-[10px]">
       The Deal Guru Team
     </p>
-    <p className="text-[8px] text-gray-400 md:text-[12px] sm:text-[10px] ml-2 text-[rgba(27, 39, 56, 0.5)] mt-1 mr-2">
+    <p className="text-gray-400 text-[12px] md:text-[12px] sm:text-[8px] text-[rgba(27, 39, 56, 0.5)] mt-1 mr-2">
       6 days, 20 hours, 17 minutes ago
     </p>
   </div>
@@ -164,6 +164,7 @@ function Comment() {
     2024-05-23 by DealGuru-Sebastian
   </p>
 </div>
+
 
         </div>
         <div className="mt-3 flex items-center ml-[75px]">

@@ -7,8 +7,8 @@ function PargrahData() {
 
   
     <div>
-      <div className=" sm:w-[100%] md:w-[95%] min-h-[250px] mt-6 bg-white rounded-xl shadow-lg shadow-gray-200 p-4 gap-3 flex flex-col">
-        <div>
+      <div className=" md:mt-6 sm:w-[100%] md:w-[95%] min-h-[250px] bg-white rounded-xl shadow-lg shadow-gray-200 p-4 gap-3 flex flex-col">
+        <div className="sm:mt-5 ">
           <h1
             style={{
               // fontFamily:"Nunito Sans ",

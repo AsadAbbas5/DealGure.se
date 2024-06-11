@@ -76,7 +76,8 @@ const DealContent = () => {
                 className=" sm: ml-2 md:ml-4 lg:ml-1 xl:ml-8"
               >
                 {isMobile
-                  }
+                  ? "Bebeconfort Soko C"
+                  : "Bebeconfort Soko Compact Stroller 0-15kg Shadow"}
               </h2>
             </div>
           </div>
@@ -88,10 +89,13 @@ const DealContent = () => {
 
           <ImageSlider />
         </div>
-        <div className="w-full md:w-3/5 sm:w-[100%]">
+        <div className="w-full md:w-3/5 sm:w-[100%] ">
 
           <DealDetial />
+          <div className="
+          sm:mt-4">
           <PargrahData />
+          </div>
         </div>
       </div>
     </div>
