@@ -19,7 +19,7 @@ const DealContent = () => {
     <div className="sm:w-full md:col-span-7  border-gray-300 rounded-lg">
       <div className="flex md:items-end justify-between md:flex-row flex-col items-start gap-2 md:mb-0 min-h-11">
         <div className="flex mt-2 items-center">
-          <div className="flex items-center ml-10 mt-1">
+          <div className="flex items-center md:ml-10 mt-1">
             <h5
               style={{
                 // fontFamily: `"Nunito Sans", sans-serif`,
@@ -73,11 +73,10 @@ const DealContent = () => {
                   textTransform: "capitalize",
                   color: "rgb(90, 90, 90)",
                 }}
-                className=" sm:ml-2 md:ml-4 lg:ml-1 xl:ml-8"
+                className=" sm: ml-2 md:ml-4 lg:ml-1 xl:ml-8"
               >
                 {isMobile
-                  ? "Bebeconfort Soko C"
-                  : "Bebeconfort Soko Compact Stroller 0-15kg Shadow"}
+                  }
               </h2>
             </div>
           </div>

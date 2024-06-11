@@ -56,7 +56,7 @@ const ImageSlider = () => {
             width={400}
             height={200}
             className="mt-5"
-            alt={`placeholder ${selectedImage}`}
+            alt={` ${selectedImage}`}
             onClick={() => setSelectedImage(selectedImage)}
           />
           <button
