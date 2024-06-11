@@ -155,7 +155,7 @@ function Comment() {
     <p className="font-semibold text-[#1B2738] ml-1 mt-1 text-[1x] md:text-[12px] sm:text-[9px]">
       The Deal Guru Team
     </p>
-    <p className="text-[8px]  md:text-[12px] sm:text-[12px] ml-2 text-[rgba(27, 39, 56, 0.5)] mt-1 mr-2">
+    <p className="text-[8px] text-gray-400 md:text-[12px] sm:text-[10px] ml-2 text-[rgba(27, 39, 56, 0.5)] mt-1 mr-2">
       6 days, 20 hours, 17 minutes ago
     </p>
   </div>
@@ -193,7 +193,7 @@ function Comment() {
               <h2 className="font-semibold text-[#1B2738] text-[12px] md:text-[12px] sm:text-[10px] mt-4">
                 John
               </h2>
-              <p className="text-[12px] md:text-[12px] sm:text-[10px] text-[rgba(27, 39, 56, 0.5)] mt-4 mr-2">
+              <p className="text-[12px] md:text-[12px] text-gray-400 sm:text-[10px] text-[rgba(27, 39, 56, 0.5)] mt-4 mr-2">
                 4 days, 3 hours, 57 minutes ago
               </p>
             </div>
