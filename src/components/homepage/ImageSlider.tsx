@@ -38,6 +38,7 @@ const ImageSlider = () => {
       selectedImage === images.length - 1 ? 0 : selectedImage + 1
     );
   };
+
   return (
     <div className="max-sm:h-[1px]">
       <div className=" sm:w-full  max-w-[600px]  min-h-[530px] bg-white rounded-xl shadow-lg shadow-gray-200 flex flex-col gap-3 items-center mx-auto">
@@ -118,129 +119,130 @@ const ImageSlider = () => {
           opacity: 1;
         }
       `}</style>
-       <div>
-       <div className="sm:w-[100%] md:w-[95%] min-h-[220px] bg-white rounded-xl shadow-lg shadow-gray-200 p-4 gap-3 max-md:items-start items-center">
-  <div
-    className="flex"
-    style={{ flexDirection: "row", alignItems: "center" }}
-  >
-    <p
-      className={
-        "text-heading text-[12px] md:text-xl lg:text-2xl 2xl:text-3xl font-bold hover:text-black mb-3.5"
-      }
-      style={{
-        fontFamily: `"Open Sans", sans-serif`,
-      }}
-    >
-      Bebeconfort Soko Compact Stroller
-      <br />
-      0-15kg Shadow
-    </p>
-
-    <DealLikeModule />
-  </div>
-  <div
-    className="flex deal-single-price deals-price font-semibold text-sm sm:text-base space-s-2 sm:text-xl md:text-base lg:text-xl 2xl:mt-3 text-heading pt-4"
-    style={{
-      alignItems: "center",
-    }}
-  >
-    <span
-      className="font-bold sm:text-[5px]"
-      style={{
-        color: "#0367DD",
-        whiteSpace: "nowrap",
-        alignItems: "center",
-        display: "flex!important",
-        width: "100%, !important",
-        fontSize: "20px",
-        fontWeight: 700,
-      }}
-    >
-      SEK 1,083
-    </span>
-
-    <s
-      className="text-heading text-[13px] md:text-xl lg:text-2xl 2xl:text-3xl"
-      style={{
-        fontWeight: 700,
-        color: "#B1B9C0",
-        lineHeight: "1.75rem",
-        marginLeft: "10px",
-      }}
-    >
-      SEK 1,495
-    </s>
-    <span
-      style={{
-        backgroundColor: "#0367DD",
-        borderRadius: "5px",
-        padding: "10px",
-        color: "#fff",
-        fontSize: "15px",
-        marginLeft: "10px",
-      }}
-    >
-      -36%
-    </span>
-    <span
-      style={{
-        display: "block",
-        width: "maxContent ",
-        color: "#0067e1",
-        fontSize: "13px",
-        flexWrap: "wrap",
-        marginLeft: "10px",
-      }}
-    >
-      Amazone
-    </span>
-    <span
-      style={{
-        display: "block",
-        width: " max-content",
-        color: "#0067e1",
-        fontSize: "13px",
-        flexWrap: "wrap",
-        marginLeft: "10px",
-      }}
-    >
-      Prams
-    </span>
-  </div>
-  <div>
-    <div className="md:flex items-center">
-      <div className="flex items-center">
-        <div>
-          <Image
-            width={30}
-            height={30}
-            src="/blank_avatar_new.png"
-            className="sm:mt w-[30px] h-[30px] rounded-full p-1 mt-5 border-[0.3px] border-gray-400"
-            alt="Avatar"
-          />
-        </div>
+      <div>
         <div
-          className="text-body text-xs lg:text-sm leading-normal xl:leading-relaxed gaping_fix av_p_text_003 ps-1 pe-2 ml-1 mt-5 md:mt-0 md:ml-2"
-          style={{
-            color: "rgba(27, 39, 56, 0.5)",
-            fontSize: "13px",
-            fontWeight: 700,
-            width: "fit-content",
-            marginTop: "15px",
-          }}
+          className=" w-full  sm:w-[100%] md:w-[95%] md:hidden lg: hidden xl:hidden 
+        min-h-[220px] bg-white rounded-xl shadow-lg shadow-gray-200 p-4 gap-3 max-md:items-start items-center"
         >
-          Updated 7 days ago by DealGuru-Sebastian
+          <div
+            className="flex"
+            style={{ flexDirection: "row", alignItems: "center" }}
+          >
+            <p
+              className={
+                "text-heading text-[12px] md:text-xl lg:text-2xl 2xl:text-3xl font-bold hover:text-black mb-3.5"
+              }
+              style={{
+                fontFamily: `"Open Sans", sans-serif`,
+              }}
+            >
+              Bebeconfort Soko Compact Stroller
+              <br />
+              0-15kg Shadow
+            </p>
+
+            <DealLikeModule />
+          </div>
+          <div
+            className="flex deal-single-price deals-price font-semibold text-sm sm:text-base space-s-2 sm:text-xl md:text-base lg:text-xl 2xl:mt-3 text-heading pt-4"
+            style={{
+              alignItems: "center",
+            }}
+          >
+            <span
+              className="font-bold sm:text-[5px]"
+              style={{
+                color: "#0367DD",
+                whiteSpace: "nowrap",
+                alignItems: "center",
+                display: "flex!important",
+                width: "100%, !important",
+                fontSize: "20px",
+                fontWeight: 700,
+              }}
+            >
+              SEK 1,083
+            </span>
+            <s
+              className="text-heading text-[13px] md:text-xl lg:text-2xl 2xl:text-3xl"
+              style={{
+                fontWeight: 700,
+                color: "#B1B9C0",
+                lineHeight: "1.75rem",
+                marginLeft: "10px",
+              }}
+            >
+              SEK 1,495
+            </s>
+            <span
+              style={{
+                backgroundColor: "#0367DD",
+                borderRadius: "5px",
+                padding: "10px",
+                color: "#fff",
+                fontSize: "15px",
+                marginLeft: "10px",
+              }}
+            >
+              -36%
+            </span>
+            <span
+              style={{
+                display: "block",
+                width: "maxContent ",
+                color: "#0067e1",
+                fontSize: "13px",
+                flexWrap: "wrap",
+                marginLeft: "10px",
+              }}
+            >
+              Amazone
+            </span>
+            <span
+              style={{
+                display: "block",
+                width: " max-content",
+                color: "#0067e1",
+                fontSize: "13px",
+                flexWrap: "wrap",
+                marginLeft: "10px",
+              }}
+            >
+              Prams
+            </span>
+          </div>
+          <div>
+            <div className="md:flex items-center">
+              <div className="flex items-center">
+                <div>
+                  <Image
+                    width={30}
+                    height={30}
+                    src="/blank_avatar_new.png"
+                    className="sm:mt w-[30px] h-[30px] rounded-full p-1 mt-5 border-[0.3px] border-gray-400"
+                    alt="Avatar"
+                  />
+                </div>
+                <div
+                  className="text-body text-xs lg:text-sm leading-normal xl:leading-relaxed gaping_fix av_p_text_003 ps-1 pe-2 ml-1 mt-5 md:mt-0 md:ml-2"
+                  style={{
+                    color: "rgba(27, 39, 56, 0.5)",
+                    fontSize: "13px",
+                    fontWeight: 700,
+                    width: "fit-content",
+                    marginTop: "15px",
+                  }}
+                >
+                  Updated 7 days ago by DealGuru-Sebastian
+                </div>
+              </div>
+              <div className="flex items-center ml-auto mt-2">
+                <CommentModules />
+              </div>
+            </div>
+          </div>
         </div>
       </div>
-      <div className="flex items-center ml-auto mt-2">
-        <CommentModules />
-      </div>
-    </div>
-  </div>
-</div>
-
-    </div>
     </div>
   );
 };

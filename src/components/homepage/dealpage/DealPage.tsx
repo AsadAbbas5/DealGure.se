@@ -117,7 +117,7 @@ export default function DealPage() {
               >
                 {product.shortDescription}
               </h1>
-              <div className="flex mt-2 items-center">
+              <div className="flex mt-2 items-center mr-3">
                 <Image
                   width={60}
                   height={60}
