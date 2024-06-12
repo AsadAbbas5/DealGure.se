@@ -153,8 +153,11 @@ function Comment() {
                 <p className="font-semibold text-[#1B2738] ml-1 mt-1 text-[10px] md:text-[12px] sm:text-[10px]">
                   The Deal Guru Team
                 </p>
-                <p className="text-gray-400 text-[8px] md:text-[12px] sm:text-[8px] text-[rgba(27, 39, 56, 0.5)] mt-1 mr-2">
-                  6 days, 20 hours, 17 minutes ago
+                <p className="text-gray-400 text-[8px] md:text-[12px] text-[rgba(27, 39, 56, 0.5)] mt-1 mr-2 truncate-text">
+                  <span className="block md:hidden">6 days, 20 hours...</span>
+                  <span className="hidden md:block">
+                    6 days, 20 hours, 17 minutes ago
+                  </span>
                 </p>
               </div>
               <p className="text-[#1B2738] text-[12px] md:text-[12px] sm:text-[8px] mt-1 ml-[5px] ">
@@ -191,7 +194,10 @@ function Comment() {
                   John
                 </h2>
                 <p className="text-[12px] md:text-[12px] text-gray-400 sm:text-[10px] text-[rgba(27, 39, 56, 0.5)] mt-4 mr-2">
-                  4 days, 3 hours, 57 minutes ago
+                  <span className="block md:hidden">4 days, 3 hours...</span>
+                  <span className="hidden md:block">
+                    4 days, 3 hours, 57 minutes ago
+                  </span>
                 </p>
               </div>
               <p className="text-gray-600 text-[14px] md:text-[14px] sm:text-[10px] mt-1 ml-2">
@@ -212,6 +218,7 @@ function Comment() {
           </div>
         </div>
       </div>
+
       <div className="md:hidden">
         <Slider {...settings}>
           {data.map((product, index) => (

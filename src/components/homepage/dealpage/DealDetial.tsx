@@ -36,33 +36,30 @@ export default function DealDetial() {
           }}
         >
           <span
-            className="font-bold sm:text-[5px]"
+             className="font-bold sm:text-[15px] md:text-[20px]"
             style={{
               color: "#0367DD",
-              whiteSpace: "nowrap",
               alignItems: "center",
-              display: "flex!important",
-              width: "100%, !important",
-              fontSize: "20px",
               fontWeight: 700,
+              lineHeight: "1.75rem",
+
             }}
           >
             SEK 1,083
           </span>
 
           <s
-            className="text-heading text-[13px] md:text-xl lg:text-2xl 2xl:text-3xl"
+            className="font-bold sm:text-[15px] md:text-[20px]"
             style={{
               fontWeight: 700,
               color: "#B1B9C0",
               lineHeight: "1.75rem",
-              // fontSize: "1.5rem",
               marginLeft: "10px",
             }}
           >
             SEK 1,495
           </s>
-          <span className="sm:text-[5px]"
+          <span
             style={{
               backgroundColor: "#0367DD",
               borderRadius: "5px",
@@ -99,7 +96,7 @@ export default function DealDetial() {
           >
             Prams
           </span>
-          <span
+          {/* <span
            className="hidden sm:block text-blue-600 text-xs ml-2"
             style={{
               width: "maxContent ",
@@ -110,7 +107,7 @@ export default function DealDetial() {
             }}
           >
             Children
-          </span>
+          </span> */}
         </div>
         <div>
           <div className="md:flex items-center">

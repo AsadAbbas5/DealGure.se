@@ -163,7 +163,7 @@ const ImageSlider = () => {
                 fontWeight: 700,
               }}
             >
-              SEK 1,083
+              {/* SEK 1,083 */}
             </span>
             <s
               className=" sm:hidden text-heading text-[5px] md:text-xl lg:text-2xl 2xl:text-3xl"
