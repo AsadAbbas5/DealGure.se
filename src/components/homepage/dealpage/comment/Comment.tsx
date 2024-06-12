@@ -157,7 +157,7 @@ function Comment() {
                   6 days, 20 hours, 17 minutes ago
                 </p>
               </div>
-              <p className="text-[#1B2738] text-[12px] md:text-[12px] sm:text-[8px] mt-1 ml-3">
+              <p className="text-[#1B2738] text-[12px] md:text-[12px] sm:text-[8px] mt-1 ">
                 The deal was updated with a new price or new discount on
                 2024-05-23 by DealGuru-Sebastian
               </p>
