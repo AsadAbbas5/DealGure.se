@@ -166,7 +166,7 @@ const ImageSlider = () => {
               SEK 1,083
             </span>
             <s
-              className="text-heading text-[13px] md:text-xl lg:text-2xl 2xl:text-3xl sm:text-[5px]"
+              className="text-heading text-[5px] md:text-xl lg:text-2xl 2xl:text-3xl"
               style={{
                 fontWeight: 700,
                 color: "#B1B9C0",
@@ -226,7 +226,7 @@ const ImageSlider = () => {
                   />
                 </div>
                 <div
-                  className="text-body text-xs lg:text-sm leading-normal xl:leading-relaxed gaping_fix av_p_text_003 ps-1 pe-2 ml-1 mt-5 md:mt-0 md:ml-2"
+                  className=" sm:text-[10px] text-body text-xs lg:text-sm leading-normal xl:leading-relaxed gaping_fix av_p_text_003 ps-1 pe-2 ml-1 mt-5 md:mt-0 md:ml-2"
                   style={{
                     color: "rgba(27, 39, 56, 0.5)",
                     fontSize: "13px",
