@@ -40,7 +40,7 @@ const ImageSlider = () => {
   };
 
   return (
-    <div className="max-sm:h-[1px]">
+    <div>
       <div className=" sm:w-full  max-w-[600px]  min-h-[530px] bg-white rounded-xl shadow-lg shadow-gray-200 flex flex-col gap-3 items-center mx-auto">
         <div className="relative w-full h-full flex justify-center items-center group">
           <button
@@ -121,8 +121,11 @@ const ImageSlider = () => {
       `}</style>
       <div>
         <div
-          className=" w-full  sm:w-[100%] md:w-[95%] md:hidden lg: hidden xl:hidden 
+          className=" w-full  md:w-[95%] md:hidden lg: hidden xl:hidden 
         min-h-[220px] bg-white rounded-xl shadow-lg shadow-gray-200 p-4 gap-3 max-md:items-start items-center"
+        style={{
+          maxWidth:"320px"
+        }}
         >
           <div
             className="flex"
@@ -149,7 +152,7 @@ const ImageSlider = () => {
               alignItems: "center",
             }}
           >
-            <span
+            <span 
               className="font-bold sm:text-[5px]"
               style={{
                 color: "#0367DD",
@@ -164,7 +167,7 @@ const ImageSlider = () => {
               SEK 1,083
             </span>
             <s
-              className="text-heading text-[13px] md:text-xl lg:text-2xl 2xl:text-3xl"
+              className="text-heading text-[13px] md:text-xl lg:text-2xl 2xl:text-3xl sm:text-[5px]"
               style={{
                 fontWeight: 700,
                 color: "#B1B9C0",
