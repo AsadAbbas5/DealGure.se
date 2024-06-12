@@ -157,7 +157,7 @@ function Comment() {
                   6 days, 20 hours, 17 minutes ago
                 </p>
               </div>
-              <p className="text-[#1B2738] text-[12px] md:text-[12px] sm:text-[8px] mt-1 ">
+              <p className="text-[#1B2738] text-[12px] md:text-[12px] sm:text-[8px] mt-1 ml-[5px] ">
                 The deal was updated with a new price or new discount on
                 2024-05-23 by DealGuru-Sebastian
               </p>
@@ -185,8 +185,8 @@ function Comment() {
                 alt="Avatar"
               />
             </div>
-            <div className="w-full">
-              <div className="flex justify-between ml-2 items-center sm:ml-2">
+            <div className="w-full sm:ml-1 md:ml-0">
+              <div className="flex justify-between ml-2 items-center">
                 <h2 className="font-semibold text-[#1B2738] text-[12px] md:text-[12px] sm:text-[10px] mt-4">
                   John
                 </h2>
