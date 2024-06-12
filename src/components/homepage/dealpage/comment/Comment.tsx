@@ -186,7 +186,7 @@ function Comment() {
               />
             </div>
             <div className="w-full">
-              <div className="flex justify-between ml-2 items-center">
+              <div className="flex justify-between ml-2 items-center sm:ml-2">
                 <h2 className="font-semibold text-[#1B2738] text-[12px] md:text-[12px] sm:text-[10px] mt-4">
                   John
                 </h2>
