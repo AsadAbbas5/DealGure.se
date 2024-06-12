@@ -150,14 +150,14 @@ function Comment() {
             />
             <div className="w-full">
               <div className="flex justify-between w-full mt-3">
-                <p className="font-semibold text-[#1B2738] ml-1 mt-1 text-[5px] md:text-[12px] sm:text-[10px]">
+                <p className="font-semibold text-[#1B2738] ml-1 mt-1 text-[10px] md:text-[12px] sm:text-[10px]">
                   The Deal Guru Team
                 </p>
-                <p className="text-gray-400 text-[12px] md:text-[12px] sm:text-[8px] text-[rgba(27, 39, 56, 0.5)] mt-1 mr-2">
+                <p className="text-gray-400 text-[8px] md:text-[12px] sm:text-[8px] text-[rgba(27, 39, 56, 0.5)] mt-1 mr-2">
                   6 days, 20 hours, 17 minutes ago
                 </p>
               </div>
-              <p className="text-[#1B2738] text-[12px] md:text-[12px] sm:text-[8px] mt-1 ml-1">
+              <p className="text-[#1B2738] text-[12px] md:text-[12px] sm:text-[8px] mt-1 ml-3">
                 The deal was updated with a new price or new discount on
                 2024-05-23 by DealGuru-Sebastian
               </p>

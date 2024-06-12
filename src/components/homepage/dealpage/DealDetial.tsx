@@ -62,7 +62,7 @@ export default function DealDetial() {
           >
             SEK 1,495
           </s>
-          <span
+          <span className="sm:text-[5px]"
             style={{
               backgroundColor: "#0367DD",
               borderRadius: "5px",
@@ -99,9 +99,9 @@ export default function DealDetial() {
           >
             Prams
           </span>
-          {/* <span
+          <span
+           className="hidden sm:block text-blue-600 text-xs ml-2"
             style={{
-              display: "block",
               width: "maxContent ",
               color: "#0067e1",
               fontSize: "13px",
@@ -110,37 +110,37 @@ export default function DealDetial() {
             }}
           >
             Children
-          </span> */}
+          </span>
         </div>
         <div>
-        <div className="md:flex items-center">
-  <div className="flex items-center">
-    <div>
-      <Image
-        width={30}
-        height={30}
-        src="/blank_avatar_new.png"
-        className="sm:mt w-[30px] h-[30px] rounded-full p-1 mt-5 border-[0.3px] border-gray-400"
-        alt="Avatar"
-      />
-    </div>
-    <div className="text-body text-xs lg:text-sm leading-normal xl:leading-relaxed gaping_fix av_p_text_003 ps-1 pe-2 ml-1 mt-5 md:mt-0 md:ml-2"
-      style={{
-        color: "rgba(27, 39, 56, 0.5)",
-        fontSize: "13px",
-        fontWeight: 700,
-        width: "fit-content",
-        marginTop:"15px"
-      }}
-    >
-      Updated 7 days ago by DealGuru-Sebastian
-    </div>
-  </div>
-  <div className="flex items-center ml-auto mt-2">
-    <CommentModules />
-  </div>
-</div>
-
+          <div className="md:flex items-center">
+            <div className="flex items-center">
+              <div>
+                <Image
+                  width={30}
+                  height={30}
+                  src="/blank_avatar_new.png"
+                  className="sm:mt w-[30px] h-[30px] rounded-full p-1 mt-5 border-[0.3px] border-gray-400"
+                  alt="Avatar"
+                />
+              </div>
+              <div
+                className="text-body text-xs lg:text-sm leading-normal xl:leading-relaxed gaping_fix av_p_text_003 ps-1 pe-2 ml-1 mt-5 md:mt-0 md:ml-2"
+                style={{
+                  color: "rgba(27, 39, 56, 0.5)",
+                  fontSize: "13px",
+                  fontWeight: 700,
+                  width: "fit-content",
+                  marginTop: "15px",
+                }}
+              >
+                Updated 7 days ago by DealGuru-Sebastian
+              </div>
+            </div>
+            <div className="flex items-center ml-auto mt-2">
+              <CommentModules />
+            </div>
+          </div>
         </div>
       </div>
     </div>

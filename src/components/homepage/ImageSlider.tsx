@@ -139,9 +139,8 @@ const ImageSlider = () => {
                 fontFamily: `"Open Sans", sans-serif`,
               }}
             >
-              Bebeconfort Soko Compact Stroller
-              <br />
-              0-15kg Shadow
+              {/* Bebeconfort Soko Compact Strolle
+              0-15kg Shadow */}
             </p>
 
             <DealLikeModule />

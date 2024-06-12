@@ -3,12 +3,12 @@ import Comment from "./comment/Comment";
 
 function PargrahData() {
   return (
-    <div>
+    <div className="sm:mt-5">
 
   
     <div>
       <div className=" md:mt-6 sm:w-[100%] md:w-[95%] min-h-[250px] bg-white rounded-xl shadow-lg shadow-gray-200 p-4 gap-3 flex flex-col">
-        <div className="sm:mt-5 ">
+        <div className=" ">
           <h1
             style={{
               // fontFamily:"Nunito Sans ",

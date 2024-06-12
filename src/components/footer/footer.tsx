@@ -27,6 +27,8 @@ const Footer = () => {
             DealGuru du också!
           </p>
           <SocialIcons />
+        
+
         </div>
         <div className=" col-span-1 ">
           <h4 className="text-xl font-bold mb-4">DealGuru</h4>

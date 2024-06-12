@@ -92,8 +92,7 @@ const DealContent = () => {
         <div className="w-full md:w-3/5 sm:w-[100%] ">
 
           <DealDetial />
-          <div className="
-          sm:mt-4">
+          <div>
           <PargrahData />
           </div>
         </div>
