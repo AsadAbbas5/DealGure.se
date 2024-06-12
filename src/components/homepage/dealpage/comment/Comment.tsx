@@ -185,9 +185,9 @@ function Comment() {
                 alt="Avatar"
               />
             </div>
-            <div className="w-full sm:ml-1 md:ml-0">
-              <div className="flex justify-between ml-2 items-center">
-                <h2 className="font-semibold text-[#1B2738] text-[12px] md:text-[12px] sm:text-[10px] mt-4">
+            <div className="w-full">
+              <div className="flex justify-between  items-center">
+                <h2 className=" ml-2 font-semibold text-[#1B2738] text-[12px] md:text-[12px] sm:text-[10px] mt-4">
                   John
                 </h2>
                 <p className="text-[12px] md:text-[12px] text-gray-400 sm:text-[10px] text-[rgba(27, 39, 56, 0.5)] mt-4 mr-2">
@@ -198,7 +198,7 @@ function Comment() {
                 What a great price! Perfect to have lying around in the car as
                 an extra trailer
               </p>
-              <div className="mt-2 flex items-center ml-1">
+              <div className="mt-2 flex items-center ml-2">
                 <PiArrowFatUpLight className="text-[1.1rem]" />
                 <p className="ml-2 text-gray-500">1</p>
                 <p className="ml-5">
