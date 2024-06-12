@@ -8,8 +8,6 @@ import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 
-
-
 export default function DealPage() {
   const data = [
     {
@@ -33,7 +31,6 @@ export default function DealPage() {
     },
   ];
 
- 
   return (
     <div className="w-full">
       <div className="hidden md:flex md:flex-col gap-3">
@@ -171,8 +168,6 @@ export default function DealPage() {
           </div>
         ))}
       </div>
-
-    
     </div>
   );
 }

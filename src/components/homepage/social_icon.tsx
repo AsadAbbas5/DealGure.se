@@ -53,21 +53,29 @@ const SocialIcons = () => {
           </h2>
         </div>
         <div>
-          <h3 className="pt-1 pb-5"
-          
-              style={{fontSize: "14px ",fontWeight: 400,color: "#637381"}}
-          
-          >Registrera dig och få tillgång till exklusiva deals</h3>
+          <h3
+            className="pt-1 pb-5"
+            style={{ fontSize: "14px ", fontWeight: 400, color: "#637381" }}
+          >
+            Registrera dig och få tillgång till exklusiva deals
+          </h3>
         </div>
       </div>
       <div>
-        <Button 
-          style={{fontFamily: 'Nunito Sans',fontStyle:" normal" ,fontWeight: 700 ,fontSize: "14px",lineHeight: "19px", height: "40px",
-              backgroundColor:"#0067e1",
-              border:"1px solid #0067e1",
-
+        <Button
+          style={{
+            fontFamily: "Nunito Sans",
+            fontStyle: " normal",
+            fontWeight: 700,
+            fontSize: "14px",
+            lineHeight: "19px",
+            height: "40px",
+            backgroundColor: "#0067e1",
+            border: "1px solid #0067e1",
           }}
-        >Register</Button>
+        >
+          Register dig
+        </Button>
       </div>
     </div>
   );

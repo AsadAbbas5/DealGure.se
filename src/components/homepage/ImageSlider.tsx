@@ -166,7 +166,7 @@ const ImageSlider = () => {
               SEK 1,083
             </span>
             <s
-              className="text-heading text-[5px] md:text-xl lg:text-2xl 2xl:text-3xl"
+              className=" sm:hidden text-heading text-[5px] md:text-xl lg:text-2xl 2xl:text-3xl"
               style={{
                 fontWeight: 700,
                 color: "#B1B9C0",
