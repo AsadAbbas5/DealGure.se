@@ -41,7 +41,7 @@ const ImageSlider = () => {
 
   return (
     <div>
-      <div className=" sm:w-full  max-w-[600px]  min-h-[530px] bg-white rounded-xl shadow-lg shadow-gray-200 flex flex-col gap-3 items-center mx-auto">
+      <div className="  min-h-[450px] bg-white rounded-xl shadow-lg shadow-gray-200 flex flex-col gap-3 items-center mx-auto">
         <div className="relative w-full h-full flex justify-center items-center group">
           <button
             onClick={handlePrevious}
@@ -54,10 +54,10 @@ const ImageSlider = () => {
           >
             <GrPrevious />
           </button>
-          <Image
+          <Image 
             src={images[selectedImage].src}
-            width={400}
-            height={200}
+            width={300}
+            height={300}
             className="mt-5"
             alt={` ${selectedImage}`}
             onClick={() => setSelectedImage(selectedImage)}
@@ -75,28 +75,31 @@ const ImageSlider = () => {
           </button>
         </div>
         <div className="flex justify-center gap-2">
-          {images.map((image, index) => (
-            <div
-              key={index}
-              onClick={() => setSelectedImage(index)}
-              className={`thumbnail-container ${
-                selectedImage === index ? "selected" : ""
-              }`}
-              style={{
-                borderRadius: "5px",
-                overflow: "hidden",
-              }}
-            >
-              <Image
-                src={image.src}
-                width={80}
-                height={80}
-                alt={`thumbnail ${index}`}
-                className="thumbnail-image"
-              />
-            </div>
-          ))}
-        </div>
+  {images.map((image, index) => (
+    <div 
+      key={index}
+      onClick={() => setSelectedImage(index)}
+      className={`thumbnail-container ${
+        selectedImage === index ? "selected" : ""
+      }`}
+      style={{
+        borderRadius: "5px",
+        overflow: "hidden",
+        margin:"5px"
+
+           }}
+    >
+      <Image
+        src={image.src}
+        width={80}
+        height={80}
+        alt={`thumbnail ${index}`}
+        className="thumbnail-image"
+      />
+    </div>
+  ))}
+</div>
+
       </div>
 
       <h1

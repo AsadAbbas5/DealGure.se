@@ -109,7 +109,7 @@ function Comment() {
   };
   return (
     <div>
-      <div className="sm:w-[100%] md:w-[95%] mt-3 bg-white rounded-xl shadow-lg shadow-gray-200 p-4 gap-3 max-md:items-start items-center">
+      <div className=" md:w-[95%] mt-3 bg-white rounded-xl shadow-lg shadow-gray-200  md:p-[10px]  gap-3 max-md:items-start items-center">
         <div
           style={{
             backgroundColor: "#fff",
@@ -118,7 +118,7 @@ function Comment() {
             borderTopLeftRadius: "5px",
           }}
         >
-          <div className="flex items-center ml-[16.5px]">
+          <div className="flex items-center ">
             <Image
               width={60}
               height={60}
@@ -132,7 +132,6 @@ function Comment() {
               style={{
                 color: "black",
                 borderRadius: "200px",
-                padding: "3%",
                 border: "1px solid rgb(237, 239, 241)",
                 fontSize: "12px",
               }}
@@ -140,33 +139,33 @@ function Comment() {
           </div>
         </div>
         <div>
-          <div className="flex items-stretch ml-[16.5px] ">
+          <div className="flex items-stretch ">
             <Image
               width={50}
               height={50}
               src="/blank_avatar_new.png"
-              className="w-[50px] h-[50px] rounded-full p-2 mt-3 ml-1"
+              className="w-[50px] h-[50px] rounded-full p-2 mt-3 "
               alt="Avatar"
             />
             <div className="w-full">
               <div className="flex justify-between w-full mt-3">
-                <p className="font-semibold text-[#1B2738] ml-1 mt-1 text-[10px] md:text-[12px] sm:text-[10px]">
+                <p className="font-semibold text-[#1B2738] mt-1 text-[13px] md:text-[12px] ">
                   The Deal Guru Team
                 </p>
-                <p className="text-gray-400 text-[8px] md:text-[12px] text-[rgba(27, 39, 56, 0.5)] mt-1 mr-2 truncate-text">
+                <p className="text-gray-400 text-[12px] md:text-[12px] text-[rgba(27, 39, 56, 0.5)] mt-1 mr-2 truncate-text">
                   <span className="block md:hidden">6 days, 20 hours...</span>
                   <span className="hidden md:block">
                     6 days, 20 hours, 17 minutes ago
                   </span>
                 </p>
               </div>
-              <p className="text-[#1B2738] text-[12px] md:text-[12px] sm:text-[8px] mt-1 ml-[5px] ">
+              <p className="text-[#1B2738] text-[12px] md:text-[12px]  mt-1 ">
                 The deal was updated with a new price or new discount on
                 2024-05-23 by DealGuru-Sebastian
               </p>
             </div>
           </div>
-          <div className="mt-3 flex items-center ml-[75px]">
+          <div className="mt-3 flex items-center ml-[55px]">
             <PiArrowFatUpLight className="text-[1.1rem]" />
             <p className="ml-2 text-gray-500">1</p>
             <p className="ml-5">
@@ -181,31 +180,31 @@ function Comment() {
           <div className="flex">
             <div>
               <Image
-                width={60}
-                height={60}
+                width={50}
+                height={50}
                 src="/blank_avatar_new.png"
-                className="w-[60px] h-[60px] rounded-full p-3 mt-2 ml-4"
+                className="w-[60px] h-[60px] rounded-full p-3 mt-2 "
                 alt="Avatar"
               />
             </div>
-            <div className="w-full">
+            <div className="md:w-full">
               <div className="flex justify-between  items-center">
-                <h2 className=" ml-2 font-semibold text-[#1B2738] text-[12px] md:text-[12px] sm:text-[10px] mt-4">
+                <h2 className=" font-semibold text-[#1B2738] text-[13px] md:text-[12px] sm:text-[15px] mt-4">
                   John
                 </h2>
-                <p className="text-[12px] md:text-[12px] text-gray-400 sm:text-[10px] text-[rgba(27, 39, 56, 0.5)] mt-4 mr-2">
+                <p className="text-[8px] md:text-[12px] text-gray-400 sm:text-[10px] text-[rgba(27, 39, 56, 0.5)] mt-4 ">
                   <span className="block md:hidden">4 days, 3 hours...</span>
                   <span className="hidden md:block">
                     4 days, 3 hours, 57 minutes ago
                   </span>
                 </p>
               </div>
-              <p className="text-gray-600 text-[14px] md:text-[14px] sm:text-[10px] mt-1 ml-2">
+              <p className="text-gray-600 text-[11px]  md:text-[14px]  mt-1">
                 What a great price! Perfect to have lying around in the car as
                 an extra trailer
               </p>
-              <div className="mt-2 flex items-center ml-2">
-                <PiArrowFatUpLight className="text-[1.1rem]" />
+              <div className="mt-2 flex items-center ">
+                <PiArrowFatUpLight className="text-[1.1rem] " />
                 <p className="ml-2 text-gray-500">1</p>
                 <p className="ml-5">
                   <PiArrowBendUpLeftLight />
@@ -218,7 +217,6 @@ function Comment() {
           </div>
         </div>
       </div>
-
       <div className="md:hidden">
         <Slider {...settings}>
           {data.map((product, index) => (

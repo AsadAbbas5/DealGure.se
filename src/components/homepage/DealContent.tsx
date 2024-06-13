@@ -17,9 +17,9 @@ const DealContent = () => {
   }, []);
   return (
     <div className="sm:w-full md:col-span-7  border-gray-300 rounded-lg">
-      <div className="flex md:items-end justify-between md:flex-row flex-col items-start gap-2 md:mb-0 min-h-11">
+      
         <div className="flex mt-2 items-center">
-          <div className="flex items-center md:ml-10 mt-1">
+          <div className=" ml-1 flex  items-center md:ml-10 mt-1">
             <h5
               style={{
                 // fontFamily: `"Nunito Sans", sans-serif`,
@@ -82,7 +82,6 @@ const DealContent = () => {
             </div>
           </div>
         </div>
-      </div>
 
       <div className="flex flex-col md:flex-row gap-3">
       <div className="w-full md:w-2/5 md:ml-4 sm:ml-0">
