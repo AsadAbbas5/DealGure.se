@@ -14,17 +14,25 @@ export default function DealDetial() {
           className="flex"
           style={{ flexDirection: "row", alignItems: "center" }}
         >
-          <p
-            className={
-              "text-heading sm:text-[15px] md:text-xl lg:text-2xl 2xl:text-3xl font-bold hover:text-black mb-3.5"
-            }
-            style={{
-              fontFamily: `"Open Sans", sans-serif`,
-              marginLeft:"10px"
-            }}
-          >
-            Bebeconfort Soko Compact Stroller 0-15kg Shado
-          </p>
+        <p
+  className={
+    "text-heading sm:text-[17px] md:text-xl lg:text-2xl 2xl:text-3xl font-bold hover:text-black mb-3.5"
+  }
+  style={{
+    fontFamily: `"Open Sans", sans-serif`,
+    marginLeft: "10px",
+  }}
+>
+  Bebeconfort Soko Compact Stroller
+  <span className="hidden md:inline">
+    <br />
+  </span>
+  <span className="inline md:hidden">
+    &nbsp;
+  </span>
+  0-15kg Shadow
+</p>
+
           <DealLikeModule />
         </div>
         <div
@@ -34,13 +42,13 @@ export default function DealDetial() {
           }}
         >
           <span
-             className="font-bold sm:text-[15px] md:text-[20px]"
+            className="font-bold sm:text-[15px] md:text-[20px]"
             style={{
               color: "#0367DD",
               alignItems: "center",
               fontWeight: 700,
               lineHeight: "1.75rem",
-              marginLeft:"10px",
+              marginLeft: "10px",
             }}
           >
             SEK 1,083
