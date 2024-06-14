@@ -126,7 +126,7 @@ export default function DealDetial() {
                   fontSize: "13px",
                   fontWeight: 700,
                   width: "fit-content",
-                  marginTop: "19px",
+                  marginTop: "22px",
                 }}
               >
                 Updated 7 days ago by DealGuru-Sebastian
