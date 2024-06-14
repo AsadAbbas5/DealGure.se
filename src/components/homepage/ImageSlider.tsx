@@ -7,7 +7,7 @@ import { GrNext } from "react-icons/gr";
 import { GrPrevious } from "react-icons/gr";
 import DealLikeModule from "./dealpage/DealLikeModule";
 import CommentModules from "./dealpage/CommentModules";
-
+import { BsBoxArrowUpRight } from "react-icons/bs";
 const ImageSlider = () => {
   const [selectedImage, setSelectedImage] = useState(0);
   const images = [
@@ -41,7 +41,7 @@ const ImageSlider = () => {
 
   return (
     <div>
-      <div className="  min-h-[450px] bg-white rounded-xl shadow-lg shadow-gray-200 flex flex-col gap-3 items-center mx-auto">
+      <div className="min-h-[600px] bg-white rounded-xl shadow-lg shadow-gray-200 flex flex-col gap-3 items-center mx-auto">
         <div className="relative w-full h-full flex justify-center items-center group">
           <button
             onClick={handlePrevious}
@@ -49,15 +49,16 @@ const ImageSlider = () => {
             style={{
               padding: "8px",
               border: "1px solid gray",
-              marginLeft: "5px",
+              marginLeft: "15px",
+
             }}
           >
             <GrPrevious />
           </button>
-          <Image 
+          <Image
             src={images[selectedImage].src}
-            width={300}
-            height={300}
+            width={380}
+            height={380}
             className="mt-5"
             alt={` ${selectedImage}`}
             onClick={() => setSelectedImage(selectedImage)}
@@ -68,38 +69,46 @@ const ImageSlider = () => {
             style={{
               padding: "8px",
               border: "1px solid gray",
-              marginRight: "5px",
+              marginRight: "15px",
             }}
           >
             <GrNext />
           </button>
         </div>
         <div className="flex justify-center gap-2">
-  {images.map((image, index) => (
-    <div 
-      key={index}
-      onClick={() => setSelectedImage(index)}
-      className={`thumbnail-container ${
-        selectedImage === index ? "selected" : ""
-      }`}
-      style={{
-        borderRadius: "5px",
-        overflow: "hidden",
-        margin:"5px"
+          {images.map((image, index) => (
+            <div
+              key={index}
+              onClick={() => setSelectedImage(index)}
+              className={`thumbnail-container ${
+                selectedImage === index ? "selected" : ""
+              }`}
+              style={{
+                borderRadius: "5px",
+                overflow: "hidden",
+                margin: "5px",
+              }}
+            >
+              <Image
+                src={image.src}
+                width={80}
+                height={80}
+                alt={`thumbnail ${index}`}
+                className="thumbnail-image"
+              />
+            </div>
+          ))}
+        </div>
 
-           }}
-    >
-      <Image
-        src={image.src}
-        width={80}
-        height={80}
-        alt={`thumbnail ${index}`}
-        className="thumbnail-image"
-      />
-    </div>
-  ))}
-</div>
-
+        <div className="w-full px-4">
+          <Link
+            className="bg-blue-700 text-white text-base text-center p-2 rounded-md font-medium flex items-center justify-center hover:bg-white hover:text-dealguru-blue hover:border hover:border-dealguru-blue transition-colors duration-300 pt-[.75rem] pb-[.75rem]"
+            
+            href=""
+          >
+            Gå direkt till dealen <BsBoxArrowUpRight className="ml-3" />
+          </Link>
+        </div>
       </div>
 
       <h1
@@ -126,9 +135,9 @@ const ImageSlider = () => {
         <div
           className=" w-full  md:w-[95%] md:hidden lg: hidden xl:hidden 
         min-h-[220px] bg-white rounded-xl shadow-lg shadow-gray-200 p-4 gap-3 max-md:items-start items-center"
-        style={{
-          maxWidth:"320px"
-        }}
+          style={{
+            maxWidth: "320px",
+          }}
         >
           <div
             className="flex"
@@ -154,7 +163,7 @@ const ImageSlider = () => {
               alignItems: "center",
             }}
           >
-            <span 
+            <span
               className="font-bold sm:text-[5px]"
               style={{
                 color: "#0367DD",

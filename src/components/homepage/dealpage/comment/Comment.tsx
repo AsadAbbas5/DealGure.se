@@ -109,13 +109,14 @@ function Comment() {
   };
   return (
     <div>
-      <div className=" md:w-[95%] mt-3 bg-white rounded-xl shadow-lg shadow-gray-200  md:p-[10px]  gap-3 max-md:items-start items-center">
+      <div className="md:w-[95%] mt-3 bg-white rounded-xl shadow-lg shadow-gray-200  md:p-[10px]  gap-3 max-md:items-start items-center">
         <div
+          className="w-full w-full px-4  pb-4"
           style={{
-            backgroundColor: "#fff",
+            backgroundColor: "white",
             border: "1px solid #ececec",
-            borderTopRightRadius: "5px",
             borderTopLeftRadius: "5px",
+            borderTopRightRadius: "5px",
           }}
         >
           <div className="flex items-center ">
@@ -130,7 +131,6 @@ function Comment() {
               placeholder="Log in or sign up to comment"
               className="font-sans w-[90%] w-full rounded-md comment_login"
               style={{
-                color: "black",
                 borderRadius: "200px",
                 border: "1px solid rgb(237, 239, 241)",
                 fontSize: "12px",
@@ -165,9 +165,9 @@ function Comment() {
               </p>
             </div>
           </div>
-          <div className="mt-3 flex items-center ml-[55px]">
+          <div className="mt-3 flex items-center ml-[53px]">
             <PiArrowFatUpLight className="text-[1.1rem]" />
-            <p className="ml-2 text-gray-500">1</p>
+            <p className="ml-3 text-gray-500">1</p>
             <p className="ml-5">
               <PiArrowBendUpLeftLight />
             </p>
@@ -177,35 +177,35 @@ function Comment() {
           </div>
         </div>
         <div>
-          <div className="flex">
+          <div className="flex items-stretch">
             <div>
               <Image
                 width={50}
                 height={50}
                 src="/blank_avatar_new.png"
-                className="w-[60px] h-[60px] rounded-full p-3 mt-2 "
+                className="w-[50px] h-[50px] rounded-full p-2  "
                 alt="Avatar"
               />
             </div>
-            <div className="md:w-full">
+            <div className="md:w-full ml-1">
               <div className="flex justify-between  items-center">
-                <h2 className=" font-semibold text-[#1B2738] text-[13px] md:text-[12px] sm:text-[15px] mt-4">
+                <h2 className="font-semibold text-[#1B2738] mt-1 text-[13px] md:text-[12px]">
                   John
                 </h2>
-                <p className="text-[8px] md:text-[12px] text-gray-400 sm:text-[10px] text-[rgba(27, 39, 56, 0.5)] mt-4 ">
+                <p className="text-gray-400 text-[12px] md:text-[12px] text-[rgba(27, 39, 56, 0.5)] mt-1 mr-2 truncate-text">
                   <span className="block md:hidden">4 days, 3 hours...</span>
                   <span className="hidden md:block">
                     4 days, 3 hours, 57 minutes ago
                   </span>
                 </p>
               </div>
-              <p className="text-gray-600 text-[11px]  md:text-[14px]  mt-1">
+              <p className="text-[#1B2738] text-[12px] md:text-[12px]  ">
                 What a great price! Perfect to have lying around in the car as
                 an extra trailer
               </p>
               <div className="mt-2 flex items-center ">
                 <PiArrowFatUpLight className="text-[1.1rem] " />
-                <p className="ml-2 text-gray-500">1</p>
+                <p className="ml-3 text-gray-500">1</p>
                 <p className="ml-5">
                   <PiArrowBendUpLeftLight />
                 </p>

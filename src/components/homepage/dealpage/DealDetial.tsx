@@ -16,17 +16,15 @@ export default function DealDetial() {
         >
           <p
             className={
-              "text-heading text-[12px] md:text-xl lg:text-2xl 2xl:text-3xl font-bold hover:text-black mb-3.5"
+              "text-heading sm:text-[15px] md:text-xl lg:text-2xl 2xl:text-3xl font-bold hover:text-black mb-3.5"
             }
             style={{
               fontFamily: `"Open Sans", sans-serif`,
+              marginLeft:"10px"
             }}
           >
-            Bebeconfort Soko Compact Stroller
-            <br />
-            0-15kg Shadow
+            Bebeconfort Soko Compact Stroller 0-15kg Shado
           </p>
-
           <DealLikeModule />
         </div>
         <div
@@ -42,7 +40,7 @@ export default function DealDetial() {
               alignItems: "center",
               fontWeight: 700,
               lineHeight: "1.75rem",
-
+              marginLeft:"10px",
             }}
           >
             SEK 1,083
@@ -112,12 +110,12 @@ export default function DealDetial() {
         <div>
           <div className="md:flex items-center">
             <div className="flex items-center">
-              <div>
+              <div className="ml-1">
                 <Image
                   width={30}
                   height={30}
                   src="/blank_avatar_new.png"
-                  className="sm:mt w-[30px] h-[30px] rounded-full p-1 mt-5 border-[0.3px] border-gray-400"
+                  className="sm: mt w-[30px] h-[30px] rounded-full p-1 mt-5 border-[0.3px] border-gray-400"
                   alt="Avatar"
                 />
               </div>
@@ -128,7 +126,7 @@ export default function DealDetial() {
                   fontSize: "13px",
                   fontWeight: 700,
                   width: "fit-content",
-                  marginTop: "15px",
+                  marginTop: "19px",
                 }}
               >
                 Updated 7 days ago by DealGuru-Sebastian

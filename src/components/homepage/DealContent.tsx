@@ -19,7 +19,7 @@ const DealContent = () => {
     <div className="sm:w-full md:col-span-7  border-gray-300 rounded-lg">
       
         <div className="flex mt-2 items-center">
-          <div className=" ml-1 flex  items-center md:ml-10 mt-1">
+          <div className=" sm:ml-4 flex  items-center md:ml-10 mt-1">
             <h5
               style={{
                 // fontFamily: `"Nunito Sans", sans-serif`,
@@ -62,7 +62,7 @@ const DealContent = () => {
             </span>
           </div>
           <div>
-            <div className="flex flex-col items-center mr-3">
+            <div className="flex flex-col items-center mr-3 sm:mt-1">
               <h2
                 style={{
                   font: "Nunito Sans",
@@ -73,7 +73,7 @@ const DealContent = () => {
                   textTransform: "capitalize",
                   color: "rgb(90, 90, 90)",
                 }}
-                className=" sm: ml-2 md:ml-4 lg:ml-1 xl:ml-8"
+                className=" sm: ml-3 md:ml-4 lg:ml-1 xl:ml-8"
               >
                 {isMobile
                   ? "Bebeconfort Soko C"
@@ -88,7 +88,7 @@ const DealContent = () => {
 
           <ImageSlider />
         </div>
-        <div className="w-full md:w-3/5 sm:w-[100%] ">
+        <div className="w-full md:w-3/5 sm:w-[100%] md:ml-2">
 
           <DealDetial />
           <div>
