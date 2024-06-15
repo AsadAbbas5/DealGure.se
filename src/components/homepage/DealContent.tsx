@@ -19,7 +19,7 @@ const DealContent = () => {
     <div className="sm:w-full md:col-span-7  border-gray-300 rounded-lg">
       
         <div className="flex mt-2 items-center">
-          <div className=" sm:ml-4 flex  items-center md:ml-10 mt-1">
+          <div className=" sm:ml-4 flex  items-center md:ml-8 mt-1">
             <h5
               style={{
                 // fontFamily: `"Nunito Sans", sans-serif`,
@@ -73,7 +73,7 @@ const DealContent = () => {
                   textTransform: "capitalize",
                   color: "rgb(90, 90, 90)",
                 }}
-                className=" sm: ml-3 md:ml-4 lg:ml-1 xl:ml-8"
+                className="ml-3"
               >
                 {isMobile
                   ? "Bebeconfort Soko C"

@@ -28,13 +28,13 @@ export default function RootLayout({
     <html lang="en">
       <body className={nunitoSans.className} >
       <div
-      //   style={{
-      //     position: "fixed",
-      //     height: "100vh",
-      //     borderLeft: "1px solid black",
-      //     left: "400px",
-      //     zIndex: 110,
-      //   }}
+        // style={{
+        //   position: "fixed",
+        //   height: "100vh",
+        //   borderLeft: "1px solid black",
+        //   left: "615px",
+        //   zIndex: 110,
+        // }}
       ></div>
         <div>
           

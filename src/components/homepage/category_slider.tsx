@@ -6,6 +6,8 @@ import {
   CarouselNext,
   CarouselPrevious,
 } from "../ui/carousel";
+import { MdNavigateNext } from "react-icons/md";
+
 const category = [
   "Presenter",
   "Gratisprover",
@@ -39,7 +41,7 @@ export default function Category_slider() {
       }}
       className="mt-3 ml-12 mr-12"
     >
-      <CarouselContent className="ml-0 flex gap-3 pl-0">
+      <CarouselContent className="ml-0 flex gap-2 pl-0">
         {category.map((d, index) => (
           <CarouselItem className=" flex  w-fit  pl-0 " key={index}>
             <div

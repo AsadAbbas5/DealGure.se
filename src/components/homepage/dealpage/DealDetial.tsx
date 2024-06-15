@@ -9,18 +9,18 @@ import DealLikeModule from "./DealLikeModule";
 export default function DealDetial() {
   return (
     <div>
-      <div className=" sm:w-[100%] md:w-[95%]  min-h-[220px] bg-white rounded-xl shadow-lg shadow-gray-200 p-4 gap-3 max-md:items-start items-center">
+      <div className=" sm:w-[100%] md:w-[95%]  min-h-[220px] bg-white rounded-xl shadow-lg shadow-gray-200p-4 p-4 gap-3 max-md:items-start items-center">
         <div
           className="flex"
           style={{ flexDirection: "row", alignItems: "center" }}
         >
           <p
             className={
-              "text-heading sm:text-[17px] md:text-xl lg:text-2xl 2xl:text-3xl font-bold hover:text-black mb-3.5"
+              "text-heading sm:text-[18px] md:text-xl lg:text-2xl 2xl:text-3xl font-bold hover:text-black mb-3.5"
             }
             style={{
               fontFamily: `"Open Sans", sans-serif`,
-              marginLeft: "10px",
+              // marginLeft: "10px",
             }}
           >
             Bebeconfort Soko Compact Stroller
@@ -46,7 +46,7 @@ export default function DealDetial() {
               alignItems: "center",
               fontWeight: 700,
               lineHeight: "1.75rem",
-              marginLeft: "10px",
+              // marginLeft: "10px",
             }}
           >
             SEK 1,083
@@ -116,7 +116,7 @@ export default function DealDetial() {
         <div>
           <div className="md:flex items-center">
             <div className="flex items-center">
-              <div className="ml-1">
+              <div>
                 <Image
                   width={30}
                   height={30}

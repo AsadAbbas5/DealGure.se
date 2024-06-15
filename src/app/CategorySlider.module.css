@@ -1,0 +1,74 @@
+.carousel {
+    margin-top: 3px;
+    margin-left: 12px;
+    margin-right: 12px;
+    overflow: hidden;
+  }
+  
+  .carouselContent {
+    display: flex;
+    position: relative;
+    overflow: hidden;
+  }
+  
+  .carouselItems {
+    display: flex;
+    transition: transform 0.5s ease;
+  }
+  
+  .carouselItem {
+    flex: 0 0 auto;
+    width: calc(100% / 3); /* Change the number of items per slide as needed */
+    max-width: 300px; /* Max width of each slide */
+    padding: 0 10px; /* Horizontal padding between items */
+    opacity: 0;
+    transition: opacity 0.5s ease;
+  }
+  
+  .carouselItem.active {
+    opacity: 1;
+  }
+  
+  .itemContent {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%; /* Center content vertically */
+  }
+  
+  .carouselButton {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    padding: 10px;
+    border: none;
+    background-color: transparent;
+    color: #000;
+    cursor: pointer;
+    transition: color 0.3s ease;
+  }
+  
+  .carouselButton:hover {
+    color: #fff;
+  }
+  
+  .previous {
+    left: 10px;
+  }
+  
+  .next {
+    right: 10px;
+  }
+  
+  @media (max-width: 768px) {
+    .carouselItem {
+      width: calc(100% / 2); /* Two items per slide on smaller screens */
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .carouselItem {
+      width: 100%; /* One item per slide on mobile screens */
+    }
+  }
+  
