@@ -43,7 +43,7 @@ export default function Category_slider() {
         {category.map((d, index) => (
           <CarouselItem className=" flex  w-fit  pl-0 " key={index}>
             <div
-              className=" text-nowrap w-fit px-[12px] py-[8px] rounded-lg bg-dealguru-white"
+              className=" text-nowrap w-fit px-[12px] rounded-lg bg-dealguru-white"
               style={{
                 fontWeight: 700,
               }}
