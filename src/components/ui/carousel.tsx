@@ -6,8 +6,7 @@ import useEmblaCarousel, {
 } from "embla-carousel-react";
 import { ArrowLeft, ArrowRight } from "lucide-react";
 
-import { cn } from "@/lib/utils";
-import { Button } from "@/components/ui/button";
+import { cn } from "@/lib/utils";import { Button } from "@/components/ui/button";
 import Image from "next/image";
 
 type CarouselApi = UseEmblaCarouselType[1];
@@ -21,7 +20,6 @@ type CarouselProps = {
   orientation?: "horizontal" | "vertical";
   setApi?: (api: CarouselApi) => void;
 };
-
 type CarouselContextProps = {
   carouselRef: ReturnType<typeof useEmblaCarousel>[0];
   api: ReturnType<typeof useEmblaCarousel>[1];
@@ -30,9 +28,7 @@ type CarouselContextProps = {
   canScrollPrev: boolean;
   canScrollNext: boolean;
 } & CarouselProps;
-
 const CarouselContext = React.createContext<CarouselContextProps | null>(null);
-
 function useCarousel() {
   const context = React.useContext(CarouselContext);
 

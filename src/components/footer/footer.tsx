@@ -155,7 +155,7 @@ const Footer = () => {
       </div>
       <div className="flex md:flex-row flex-col  border-t border-gray-300 py-8 md_lg:px-x-pad px-8 bg-dealguru-white gap-2 items-center md:justify-between ">
         <div className="text-sm text-gray-600">
-          Copyright 2023-2024 DealGuru AB
+          Copyright 2023-2024-2025 - DealGuru Asad
         </div>
         {/* <Link href="#top">To top</Link> */}
         <div className="flex gap-3">

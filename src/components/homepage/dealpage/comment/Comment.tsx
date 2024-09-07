@@ -139,7 +139,7 @@ function Comment() {
           </div>
         </div>
         <div>
-          <div className="flex items-stretch ">
+          <div className="flex items-stretch">
             <Image
               width={50}
               height={50}
